@@ -1,0 +1,19 @@
+{
+  "name": "frameworkcss",
+  "version": "1.0.0",
+  "description": "Stay tuned while the new owner sorts through some stuff. (Oh, hi, I'm [David](https://github.com/daviddeutsch)!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basjerome/frameworkcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basjerome/frameworkcss/issues"
+  },
+  "homepage": "https://github.com/basjerome/frameworkcss#readme"
+}
