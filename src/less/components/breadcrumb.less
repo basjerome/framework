@@ -1,0 +1,26 @@
+.ui-breadcrumb {
+    text-align: left;
+    height: 26px;
+    margin: @gutter auto;
+    font-size: 19px;
+    li {
+        display: inline-block;
+        color: @grey;
+        span {font-size: 12px;}
+        &:first-child {margin-right: 8px;}
+        + li {margin-left: 3px;margin-right: 8px;}
+    }
+    .fa-home:before {font-size: 12px;position: relative;top: 0;}
+    a {
+        color: @grey;
+        text-decoration: none;
+        border-bottom: 1px solid @grey;
+        &:hover {color: @black;border-bottom: 1px solid @black;}
+    }
+}
+@media all and (max-width: 1000px) {
+    .ui-breadcrumb {width: 100%;padding: 0 15px;}
+}
+@media all and (min-width: 1000px) {
+    .ui-breadcrumb {width: 1000px;}
+}

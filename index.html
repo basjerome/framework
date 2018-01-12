@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Framework CSS Boulanger par la DevTeam</title>
+        <link rel="stylesheet" href="dist/css/styles.css">
+        <style media="screen">
+            h2{
+                display:block;
+                margin-bottom:0 !important;
+            }
+            h2:after{
+                display: inline-block;
+                content: '';
+                background: #ff5c00;
+                height: 7px;
+                width: 100%;
+                vertical-align: super;
+            }
+            h3{
+                display:inline-block;
+                margin-bottom:0 !important;
+            }
+            h3:after{
+                display: inline-block;
+                content: '';
+                background: #0096b1;
+                height: 3px;
+                width: 100%;
+                vertical-align: super;
+            }
+        </style>
+    </head>
+    <body>
+
+        <ol class="ui-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.boulanger.com/"><span itemprop="name">Accueil</span></a>
+                <meta itemprop="position" content="1" />
+            </li>&rsaquo;
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.boulanger.com/sciencefiction/"><span itemprop="name">Level 1</span></a>
+                <meta itemprop="position" content="2" />
+            </li>&rsaquo;
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <span itemprop="name">Level 2</span>
+                <meta itemprop="position" content="3" />
+            </li>
+        </ol>
+        <div class="ui-content">
+            <h1>Boulanger Front Framework</h1>
+            <p>Voici la documentation du framework CSS, JS et HTML de l'équipe front.</p>
+            <h2>Carousel plugin</h2>
+            <div class="ui-carousel ui-carousel-dots">
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+            </div>
+            <div class="ui-carousel ui-carousel-nav">
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+            </div>
+            <div class="ui-carousel ui-carousel-dots-nav">
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
+            </div>
+            <h2>Icons</h2>
+            <h3>Usage =>  class="fa fa-xxxxxx"</h3>
+            <code>&lt;i class=&quot;fa fa-address-book&quot;&gt;&lt;/i&gt;</code>
+            <h3>Example</h3>
+            <hr>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            fa-twitter on fa-square-o
+            <br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+            </span>
+            fa-flag on fa-circle
+            <br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+            </span>
+            fa-terminal on fa-square
+            <br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-camera fa-stack-1x"></i>
+                <i class="fa fa-ban fa-stack-2x text-danger"></i>
+            </span>
+            fa-ban on fa-camera
+            <hr>
+            <i class="fa fa-shield"></i> normal
+            <br>
+            <i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90
+            <br>
+            <i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180
+            <br>
+            <i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270
+            <br>
+            <i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal
+            <br>
+            <i class="fa fa-shield fa-flip-vertical"></i> fa-flip-vertical
+            <hr>
+            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+            <hr>
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+                <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+                <li><i class="fa-li fa fa-cog  fa-spin"></i>as bullets</li>
+                <li><i class="fa-li fa fa-square"></i>in lists</li>
+            </ul>
+            <hr>
+            <p>
+                <i class="fa fa-address-book"></i>
+                <i class="fa fa-address-book-o"></i>
+                <i class="fa fa-address-card"></i>
+                <i class="fa fa-address-card-o"></i>
+                <i class="fa fa-adjust"></i>
+                <i class="fa fa-american-sign-language-interpreting"></i>
+                <i class="fa fa-anchor"></i>
+                <i class="fa fa-archive"></i>
+                <i class="fa fa-area-chart"></i>
+                <i class="fa fa-arrows"></i>
+                <i class="fa fa-arrows-h"></i>
+                <i class="fa fa-arrows-v"></i>
+                <i class="fa fa-asl-interpreting (alias)"></i>
+                <i class="fa fa-assistive-listening-systems"></i>
+                <i class="fa fa-asterisk"></i>
+                <i class="fa fa-at"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </p>
+            <p>Voir la liste complète sur => <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a></p>
+            <h2>Boutons (ui-button)</h2>
+            <div class="ui-layout">
+                <div class="ui-width-49">
+                    <h3>Small (ui-button-small)</h3>
+                    <code>ui-button ui-button-primary ui-button-small fa fa-shopping-cart</code>
+                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-small fa fa-shopping-cart" aria-hidden="true"></a>
+                    <code>ui-button ui-button-primary ui-button-small fa fa-times</code>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-small fa fa-times" aria-hidden="true"></a>
+                </div>
+                <div class="ui-width-49 ui-offset-width-2">
+                    <h3>Large (ui-button-large)</h3>
+                    <code>ui-button ui-button-primary ui-button-large</code>
+                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-large">Ajouter au panier</a>
+                    <div class="ui-clearfix ui-mt-5"></div>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-large">Ajouter au panier</a>
+                </div>
+                <div class="ui-width-49">
+                    <h3>Medium avec icone (fa fa-times)</h3>
+                    <p>Voir la liste complète sur => <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a></p>
+                    <code>&lt;a href=&quot;javascript:void(0);&quot; class=&quot;ui-button ui-button-secondary ui-button-medium&quot;&gt;<br>&lt;i class=&quot;fa fa-pencil-square-o&quot; aria-hidden=&quot;true&quot;&gt;<br>&lt;/i&gt;Modifier<br>&lt;/a&gt;</code>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Modifier</a>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5"><i class="fa fa-times" aria-hidden="true"></i>Supprimer</a>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Valider</a>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Envoyer</a>
+                </div>
+                <div class="ui-width-49 ui-offset-width-2">
+                    <h3>Medium (ui-button-medium)</h3>
+                    <code>ui-button ui-button-primary/secondary ui-button-medium</code>
+                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-medium">Acheter</a>
+                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Acheter</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" charset="utf-8"></script>
+        <script src="dist/js/carousel.js" charset="utf-8"></script>
+        <script src="dist/js/functions.js" charset="utf-8"></script>
+    </body>
+</html>

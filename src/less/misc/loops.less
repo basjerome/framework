@@ -1,0 +1,50 @@
+.func-fontSize (@i) when (@i > 0) {
+    .ui-fs-@{i} {
+        width:~"@{i}%";
+    }
+    .func-fontSize(@i - 1);
+}
+.func-fontSize (@width);
+
+.fs-12 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.fs-15 {
+    font-size: 15px;
+    line-height: 18px;
+}
+/*
+MODAL
+*/
+/* DECLARATIONS DES FONCTIONS */
+.func-width (@i) when (@i > 0) {
+    .ui-width-@{i} {
+        width:~"@{i}%";
+        display: inline-block;
+    }
+    .func-width(@i - 1);
+}
+
+.func-offset_width (@i) when (@i > 0) {
+    .ui-offset-width-@{i} {margin-left:~"@{i}%"}
+    .func-offset_width(@i - 1);
+}
+
+.func-padding_margin (@i) when (@i > 0) {
+    .ui-m-@{i} {margin:~"@{i}px"}
+    .ui-p-@{i} {padding:~"@{i}px"}
+    .ui-mt-@{i} {margin-top:~"@{i}px"}
+    .ui-mr-@{i} {margin-right:~"@{i}px"}
+    .ui-mb-@{i} {margin-bottom:~"@{i}px"}
+    .ui-ml-@{i} {margin-left:~"@{i}px"}
+    .ui-pt-@{i} {padding-top:~"@{i}px"}
+    .ui-pr-@{i} {padding-right:~"@{i}px"}
+    .ui-pb-@{i} {padding-bottom:~"@{i}px"}
+    .ui-pl-@{i} {padding-left:~"@{i}px"}
+    .func-padding_margin(@i - 5);
+}
+.func-width (@width);
+.func-offset_width(@width);
+.func-padding_margin (@espacements);

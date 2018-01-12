@@ -1,0 +1,84 @@
+@import 'misc/variables.less';
+@import 'misc/mixins.less';
+@import 'misc/loops.less';
+@import 'misc/buttons.less';
+@import 'misc/forms.less';
+@import 'plugins/icons/font-awesome.less';
+@import 'plugins/carousel/styles.less';
+@import 'plugins/carousel/boulanger.less';
+@import 'components/breadcrumb.less';
+@import 'components/opeco.less';
+@import 'components/popin.less';
+@import 'components/product.less';
+@import 'components/socialshare.less';
+
+* {margin: 0;padding: 0}
+
+#center {width: 100% !important}
+#center_part_2_full {float: none !important;width: 100% !important}
+#contenuhome {margin: 0 !important}
+#bottomfooter {margin-top: 0 !important}
+#ftr {margin-top: 0 !important}
+.ui-content {
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    & *,
+    & *::after,
+    & *::before {.transition;-webkit-box-sizing: border-box;box-sizing: border-box;}
+    code {background: #dbdbdb;.border-radius;padding: 13px 25px;font-family: consolas;margin:@gutter 0;border: 1px solid #bdbdbd;display: table;font-size: 12px;}
+    div,h1,h2,h3,h4,h5,h6,li,p,span {font-family: "Open Sans", Arial}
+    h1,h2,h3,h4,h5,h6,strong {margin-bottom: @gutter;font-weight: 600}
+    h1,h2,h3,h4,h5,h6 {padding-top: @gutter}
+    ul {margin: 0 0 (@gutter*2) (@gutter*2)}
+    h1 {font-size: 24px;line-height: 30px}
+    h2 {font-size: 19px;line-height: 25px;text-transform:uppercase;}
+    h3 {font-size: 17px;line-height: 23px}
+    h4 {font-size: 15px;line-height: 21px}
+    h5 {font-size: 13px;line-height: 19px}
+    h6 {font-size: 12px;line-height: 18px}
+    p {margin-bottom: @gutter}
+    li,p {
+        font-size: 13px;
+        line-height: 18px;
+        em,i {font-style: italic}
+        b,strong {font-weight: 600}
+        u {text-decoration: underline}
+    }
+    p {
+        a {color: @secondary;text-decoration: underline}
+        a:active {color: @secondaryLight}
+        a:hover {text-decoration: none}
+    }
+}
+i.fa{font-style: normal !important}
+.ui-clearfix::before,
+.ui-clearfix::after {
+  display: table;
+  content: "";
+}
+.ui-clearfix::after {clear: both;}
+
+.ui-layout {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    &.center {text-align: center;}
+    &.left {text-align: left;}
+    &.right {text-align: right;}
+    >*{vertical-align: top;}
+}
+.text-danger {
+    color:@error;
+}
+@media all and (max-width: 1000px) {
+    .ui-content {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+@media all and (min-width: 1000px) {
+    .ui-content {
+        width: 1000px;
+    }
+}
