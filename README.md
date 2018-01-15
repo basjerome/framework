@@ -1,16 +1,16 @@
 # Boulanger Framework
-* [Template link](#template)
-* [CSS link](#css)
-* [JS link](#js)
-* [Breakpoints link](#breakpoints)
-* [Grid link](#grid)
-* [Fonts link](#fonts)
-* [Heading link](#heading)
+* [Template](#template)
+* [CSS](#css)
+* [JavaScript](#js)
+* [Breakpoints](#breakpoints)
+* [Grid](#grid)
+* [Fonts](#fonts)
+* [Heading](#heading)
 
 ## Template
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,13 +37,21 @@
 </html>
 ```
 
-## CSS
-<!-- CSS -->
-<link rel="stylesheet" href="dist/css/boulanger-framework.min.css">
+---
 
-## JS
-<!-- JavaScript -->
+## CSS
+```html
+<link rel="stylesheet" href="dist/css/boulanger-framework.min.css">
+```
+
+---
+
+## JavaScript
+```html
 <script type="text/javascript" src="dist/js/boulanger-framework.min.js"></script>
+```
+
+---
 
 ## Breakpoints
 ```
@@ -63,6 +71,8 @@
 @media (min-width: 1200px) { ... }
 ```
 
+---
+
 ## Grid
 Le Framework utilise un système de grilles, allant de 1 à 24 colonnes.
 
@@ -70,82 +80,145 @@ Le Framework utilise un système de grilles, allant de 1 à 24 colonnes.
 
 Il est possible de varier la largeur des colonnes selon la taille de l'écran (XS, SM, MD, LG, XL).
 
-|         | Class        |
-| ------- |:------------:|
-| Défaut  | .hub-col-    |
-| <576px  | .hub-col-xs- |
-| ≥576px  | .hub-col-sm- |
-| ≥768px  | .hub-col-md- |
-| ≥992px  | .hub-col-lg- |
-| ≥1200px | .hub-col-xl- |
+| Breakpoints | Classes        |
+| ----------- | -------------- |
+| Défaut      | `.hub-col-`    |
+| <576px      | `.hub-col-xs-` |
+| ≥576px      | `.hub-col-sm-` |
+| ≥768px      | `.hub-col-md-` |
+| ≥992px      | `.hub-col-lg-` |
+| ≥1200px     | `.hub-col-xl-` |
 
 ```html
-<div class="hub-col-1"></div>
-<div class="hub-col-2"></div>
-<div class="hub-col-3"></div>
-<div class="hub-col-4"></div>
-<div class="hub-col-5"></div>
-<div class="hub-col-6"></div>
-<div class="hub-col-7"></div>
-<div class="hub-col-8"></div>
-<div class="hub-col-9"></div>
-<div class="hub-col-10"></div>
-<div class="hub-col-11"></div>
-<div class="hub-col-12"></div>
-<div class="hub-col-13"></div>
-<div class="hub-col-14"></div>
-<div class="hub-col-15"></div>
-<div class="hub-col-16"></div>
-<div class="hub-col-17"></div>
-<div class="hub-col-18"></div>
-<div class="hub-col-19"></div>
-<div class="hub-col-20"></div>
-<div class="hub-col-21"></div>
-<div class="hub-col-22"></div>
-<div class="hub-col-23"></div>
-<div class="hub-col-24"></div>
+<div class="hub-row">
+	<div class="hub-col-1"></div>
+	<div class="hub-col-2"></div>
+	<div class="hub-col-3"></div>
+	<div class="hub-col-4"></div>
+	<div class="hub-col-5"></div>
+	<div class="hub-col-6"></div>
+	<div class="hub-col-7"></div>
+	<div class="hub-col-8"></div>
+	<div class="hub-col-9"></div>
+	<div class="hub-col-10"></div>
+	<div class="hub-col-11"></div>
+	<div class="hub-col-12"></div>
+	<div class="hub-col-13"></div>
+	<div class="hub-col-14"></div>
+	<div class="hub-col-15"></div>
+	<div class="hub-col-16"></div>
+	<div class="hub-col-17"></div>
+	<div class="hub-col-18"></div>
+	<div class="hub-col-19"></div>
+	<div class="hub-col-20"></div>
+	<div class="hub-col-21"></div>
+	<div class="hub-col-22"></div>
+	<div class="hub-col-23"></div>
+	<div class="hub-col-24"></div>
+</div>
 ```
 
-Il est possible de décaler les colonnes en ajoutant ces classes :
+Les classes ci-dessous permettent de décaler les colonnes sur la droite.
 
-|         | Class               |
-| ------- |:-------------------:|
-| Défaut  | .hub-col-offset-    |
-| <576px  | .hub-col-xs-offset- |
-| ≥576px  | .hub-col-sm-offset- |
-| ≥768px  | .hub-col-md-offset- |
-| ≥992px  | .hub-col-lg-offset- |
-| ≥1200px | .hub-col-xl-offset- |
+| Breakpoints | Classes               |
+| ----------- | --------------------- |
+| Défaut      | `.hub-col-offset-`    |
+| <576px      | `.hub-col-xs-offset-` |
+| ≥576px      | `.hub-col-sm-offset-` |
+| ≥768px      | `.hub-col-md-offset-` |
+| ≥992px      | `.hub-col-lg-offset-` |
+| ≥1200px     | `.hub-col-xl-offset-` |
 
 ```html
-<div class="hub-col-offset-1"></div>
-<div class="hub-col-offset-2"></div>
-<div class="hub-col-offset-3"></div>
-<div class="hub-col-offset-4"></div>
-<div class="hub-col-offset-5"></div>
-<div class="hub-col-offset-6"></div>
-<div class="hub-col-offset-7"></div>
-<div class="hub-col-offset-8"></div>
-<div class="hub-col-offset-9"></div>
-<div class="hub-col-offset-10"></div>
-<div class="hub-col-offset-11"></div>
-<div class="hub-col-offset-12"></div>
-<div class="hub-col-offset-13"></div>
-<div class="hub-col-offset-14"></div>
-<div class="hub-col-offset-15"></div>
-<div class="hub-col-offset-16"></div>
-<div class="hub-col-offset-17"></div>
-<div class="hub-col-offset-18"></div>
-<div class="hub-col-offset-19"></div>
-<div class="hub-col-offset-20"></div>
-<div class="hub-col-offset-21"></div>
-<div class="hub-col-offset-22"></div>
-<div class="hub-col-offset-23"></div>
-<div class="hub-col-offset-24"></div>
+<div class="hub-row">
+	<div class="hub-col-offset-1"></div>
+	<div class="hub-col-offset-2"></div>
+	<div class="hub-col-offset-3"></div>
+	<div class="hub-col-offset-4"></div>
+	<div class="hub-col-offset-5"></div>
+	<div class="hub-col-offset-6"></div>
+	<div class="hub-col-offset-7"></div>
+	<div class="hub-col-offset-8"></div>
+	<div class="hub-col-offset-9"></div>
+	<div class="hub-col-offset-10"></div>
+	<div class="hub-col-offset-11"></div>
+	<div class="hub-col-offset-12"></div>
+	<div class="hub-col-offset-13"></div>
+	<div class="hub-col-offset-14"></div>
+	<div class="hub-col-offset-15"></div>
+	<div class="hub-col-offset-16"></div>
+	<div class="hub-col-offset-17"></div>
+	<div class="hub-col-offset-18"></div>
+	<div class="hub-col-offset-19"></div>
+	<div class="hub-col-offset-20"></div>
+	<div class="hub-col-offset-21"></div>
+	<div class="hub-col-offset-22"></div>
+	<div class="hub-col-offset-23"></div>
+	<div class="hub-col-offset-24"></div>
+</div>
 ```
+[Démo](grid.html)
+
+---
 
 ## Fonts
-...
+```
+class="hub-open-sans"
+```
 
 ## Heading
-...
+[Démo](heading.html)
+
+---
+
+## Text align
+```
+class="hub-text-left"
+class="hub-text-center"
+class="hub-text-right"
+class="hub-text-justify"
+class="hub-text-nowrap"
+```
+[Démo](text-align.html)
+
+---
+
+## Text transform
+```
+class="hub-text-lowercase"
+class="hub-text-uppercase"
+class="hub-text-capitalize"
+```
+[Démo](text-transform.html)
+
+---
+
+## List
+### Default
+```html
+<ul>
+	<li>...</li>
+</ul>
+```
+
+### Decimal
+```html
+<ol>
+	<li>...</li>
+</ol>
+```
+
+### Unstyled
+```html
+<ul class="hub-list-unstyled">
+	<li>...</li>
+</ul>
+```
+
+### Inline
+```html
+<ul class="hub-list-inline">
+	<li>...</li>
+</ul>
+```
+[Démo](list.html)
