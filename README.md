@@ -1,32 +1,34 @@
-
+# Boulanger Framework
+Template
+## fdgfdgdfg
 ```javascript
 $(function(){
     console.log('test')
 })
 ```
 ```html
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-1&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-2&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-3&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-4&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-5&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-6&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-7&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-8&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-9&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-10&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-11&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-12&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-13&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-14&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-15&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-16&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-17&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-18&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-19&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-20&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-21&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-22&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-23&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
-<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-24&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<div class="hub-col-1"></div>
+<div class="hub-col-2"></div>
+<div class="hub-col-3"></div>
+<div class="hub-col-4"></div>
+<div class="hub-col-5"></div>
+<div class="hub-col-6"></div>
+<div class="hub-col-7"></div>
+<div class="hub-col-8"></div>
+<div class="hub-col-9"></div>
+<div class="hub-col-10"></div>
+<div class="hub-col-11"></div>
+<div class="hub-col-12"></div>
+<div class="hub-col-13"></div>
+<div class="hub-col-14"></div>
+<div class="hub-col-15"></div>
+<div class="hub-col-16"></div>
+<div class="hub-col-17"></div>
+<div class="hub-col-18"></div>
+<div class="hub-col-19"></div>
+<div class="hub-col-20"></div>
+<div class="hub-col-21"></div>
+<div class="hub-col-22"></div>
+<div class="hub-col-23"></div>
+<div class="hub-col-24"></div>
 ```
