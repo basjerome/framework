@@ -1,181 +1,204 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Framework CSS Boulanger par la DevTeam</title>
-        <link rel="stylesheet" href="dist/css/styles.css">
-        <style media="screen">
-            h2{
-                display:block;
-                margin-bottom:0 !important;
-            }
-            h2:after{
-                display: inline-block;
-                content: '';
-                background: #ff5c00;
-                height: 7px;
-                width: 100%;
-                vertical-align: super;
-            }
-            h3{
-                display:inline-block;
-                margin-bottom:0 !important;
-            }
-            h3:after{
-                display: inline-block;
-                content: '';
-                background: #0096b1;
-                height: 3px;
-                width: 100%;
-                vertical-align: super;
-            }
-        </style>
-    </head>
-    <body>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="Jérôme Bas">
+		<title>Boulanger Framework</title>
+		<link href="dist/img/icon/favicon.ico" rel="icon">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="dist/css/boulanger-framework.css">
+		<link rel="stylesheet" href="dist/css/boulanger-framework-demo.css">
+		<script type="javascript/text" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script type="text/javascript" src="dist/js/ie10-viewport-bug-workaround.js"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
 
-        <ol class="ui-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.boulanger.com/"><span itemprop="name">Accueil</span></a>
-                <meta itemprop="position" content="1" />
-            </li>&rsaquo;
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.boulanger.com/sciencefiction/"><span itemprop="name">Level 1</span></a>
-                <meta itemprop="position" content="2" />
-            </li>&rsaquo;
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <span itemprop="name">Level 2</span>
-                <meta itemprop="position" content="3" />
-            </li>
-        </ol>
-        <div class="ui-content">
-            <h1>Boulanger Front Framework</h1>
-            <p>Voici la documentation du framework CSS, JS et HTML de l'équipe front.</p>
-            <h2>Carousel plugin</h2>
-            <div class="ui-carousel ui-carousel-dots">
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-            </div>
-            <div class="ui-carousel ui-carousel-nav">
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-            </div>
-            <div class="ui-carousel ui-carousel-dots-nav">
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-                <div><img src="https://www.boulanger.com/ecommerce/ecommerce/op_com/TA_DESK_HAPPY_CONFORT_S38.jpg" alt=""></div>
-            </div>
-            <h2>Icons</h2>
-            <h3>Usage =>  class="fa fa-xxxxxx"</h3>
-            <code>&lt;i class=&quot;fa fa-address-book&quot;&gt;&lt;/i&gt;</code>
-            <h3>Example</h3>
-            <hr>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-            fa-twitter on fa-square-o
-            <br>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-            </span>
-            fa-flag on fa-circle
-            <br>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-square fa-stack-2x"></i>
-                <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-            </span>
-            fa-terminal on fa-square
-            <br>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-camera fa-stack-1x"></i>
-                <i class="fa fa-ban fa-stack-2x text-danger"></i>
-            </span>
-            fa-ban on fa-camera
-            <hr>
-            <i class="fa fa-shield"></i> normal
-            <br>
-            <i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90
-            <br>
-            <i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180
-            <br>
-            <i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270
-            <br>
-            <i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal
-            <br>
-            <i class="fa fa-shield fa-flip-vertical"></i> fa-flip-vertical
-            <hr>
-            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-            <span class="sr-only">Loading...</span>
-            <hr>
-            <ul class="fa-ul">
-                <li><i class="fa-li fa fa-check-square"></i>List icons</li>
-                <li><i class="fa-li fa fa-check-square"></i>can be used</li>
-                <li><i class="fa-li fa fa-cog  fa-spin"></i>as bullets</li>
-                <li><i class="fa-li fa fa-square"></i>in lists</li>
-            </ul>
-            <hr>
-            <p>
-                <i class="fa fa-address-book"></i>
-                <i class="fa fa-address-book-o"></i>
-                <i class="fa fa-address-card"></i>
-                <i class="fa fa-address-card-o"></i>
-                <i class="fa fa-adjust"></i>
-                <i class="fa fa-american-sign-language-interpreting"></i>
-                <i class="fa fa-anchor"></i>
-                <i class="fa fa-archive"></i>
-                <i class="fa fa-area-chart"></i>
-                <i class="fa fa-arrows"></i>
-                <i class="fa fa-arrows-h"></i>
-                <i class="fa fa-arrows-v"></i>
-                <i class="fa fa-asl-interpreting (alias)"></i>
-                <i class="fa fa-assistive-listening-systems"></i>
-                <i class="fa fa-asterisk"></i>
-                <i class="fa fa-at"></i>
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </p>
-            <p>Voir la liste complète sur => <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a></p>
-            <h2>Boutons (ui-button)</h2>
-            <div class="ui-layout">
-                <div class="ui-width-49">
-                    <h3>Small (ui-button-small)</h3>
-                    <code>ui-button ui-button-primary ui-button-small fa fa-shopping-cart</code>
-                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-small fa fa-shopping-cart" aria-hidden="true"></a>
-                    <code>ui-button ui-button-primary ui-button-small fa fa-times</code>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-small fa fa-times" aria-hidden="true"></a>
-                </div>
-                <div class="ui-width-49 ui-offset-width-2">
-                    <h3>Large (ui-button-large)</h3>
-                    <code>ui-button ui-button-primary ui-button-large</code>
-                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-large">Ajouter au panier</a>
-                    <div class="ui-clearfix ui-mt-5"></div>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-large">Ajouter au panier</a>
-                </div>
-                <div class="ui-width-49">
-                    <h3>Medium avec icone (fa fa-times)</h3>
-                    <p>Voir la liste complète sur => <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a></p>
-                    <code>&lt;a href=&quot;javascript:void(0);&quot; class=&quot;ui-button ui-button-secondary ui-button-medium&quot;&gt;<br>&lt;i class=&quot;fa fa-pencil-square-o&quot; aria-hidden=&quot;true&quot;&gt;<br>&lt;/i&gt;Modifier<br>&lt;/a&gt;</code>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Modifier</a>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5"><i class="fa fa-times" aria-hidden="true"></i>Supprimer</a>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Valider</a>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Envoyer</a>
-                </div>
-                <div class="ui-width-49 ui-offset-width-2">
-                    <h3>Medium (ui-button-medium)</h3>
-                    <code>ui-button ui-button-primary/secondary ui-button-medium</code>
-                    <a href="javascript:void(0);" class="ui-button ui-button-primary ui-button-medium">Acheter</a>
-                    <a href="javascript:void(0);" class="ui-button ui-button-secondary ui-button-medium ui-ml-5">Acheter</a>
-                </div>
-            </div>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" charset="utf-8"></script>
-        <script src="dist/js/carousel.js" charset="utf-8"></script>
-        <script src="dist/js/functions.js" charset="utf-8"></script>
-    </body>
+
+		<div class="hub-container">
+
+
+			<h1>Boulanger Framework</h1>
+			<nav>
+				<ul>
+					<li><a href="#template" title="">Template</a></li>
+					<li><a href="#css" title="">CSS</a></li>
+					<li><a href="#js" title="">JS</a></li>
+					<li><a href="#breakpoints" title="">Breakpoints</a></li>
+					<li><a href="#grid" title="">Grid</a></li>
+					<li><a href="#fonts" title="">Fonts</a></li>
+					<li><a href="#heading" title="">Heading</a></li>
+				</ul>
+			</nav>
+
+
+
+			<h2 id="template">Template</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+	&lt;!-- CSS --&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;dist/css/boulanger-framework.min.css&quot;&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;script type=&quot;javascript/text&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;dist/js/ie10-viewport-bug-workaround.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src=&quot;https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://oss.maxcdn.com/respond/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	...
+
+	&lt;!-- JavaScript --&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;dist/js/boulanger-framework.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+				</code>
+			</pre>
+
+
+
+			<h2 id="css">CSS</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+&lt;!-- CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;dist/css/boulanger-framework.min.css&quot;&gt;
+				</code>
+			</pre>
+
+
+
+			<h2 id="js">JS</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+&lt;!-- JavaScript --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;dist/js/boulanger-framework.min.js&quot;&gt;&lt;/script&gt;
+				</code>
+			</pre>
+
+
+
+			<h2 id="breakpoints">Breakpoints</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+// XS (portrait phones)
+@media (max-width: 575.99px) { ... }
+
+// SM (landscape phones)
+@media (min-width: 576px) and (max-width: 767.99px) { ... }
+
+// MD (tablets)
+@media (min-width: 768px) and (max-width: 991.99px) { ... }
+
+// LG (desktops)
+@media (min-width: 992px) and (max-width: 1199.99px) { ... }
+
+// XL (large desktops)
+@media (min-width: 1200px) { ... }
+				</code>
+			</pre>
+
+
+
+			<h2 id="grid">Grid</h2>
+			<table>
+				<tbody>
+					<tr>
+						<th>Défaut :</th>
+						<td>.hub-col-</td>
+					</tr>
+					<tr>
+						<th><576px :</th>
+						<td>.hub-col-xs-</td>
+					</tr>
+					<tr>
+						<th>≥576px :</th>
+						<td>.hub-col-sm-</td>
+					</tr>
+					<tr>
+						<th>≥768px :</th>
+						<td>.hub-col-md-</td>
+					</tr>
+					<tr>
+						<th>≥992px :</th>
+						<td>.hub-col-lg-</td>
+					</tr>
+					<tr>
+						<th>≥1200px :</th>
+						<td>.hub-col-xl-</td>
+					</tr>
+				</tbody>
+			</table>
+			<pre>
+				<code class="language-html" data-lang="html">
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-1&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-2&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-3&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-4&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-5&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-6&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-7&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-8&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-9&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-10&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-11&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-12&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-13&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-14&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-15&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-16&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-17&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-18&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-19&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-20&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-21&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-22&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-23&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+<span class="b">&lt;div</span> <span class="a">class=</span><span class="v">&quot;hub-col-24&quot;&gt;</span><span class="b">&lt;/div&gt;</span>
+				</code>
+			</pre>
+
+
+
+			<h2 id="fonts">Fonts</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+...
+				</code>
+			</pre>
+
+
+
+			<h2 id="heading">Heading</h2>
+			<pre>
+				<code class="language-html" data-lang="html">
+...
+				</code>
+			</pre>
+
+
+
+		</div><!-- /hub-container -->
+
+
+
+		<script type="javascript/text" src="dist/js/boulanger-framework.min.js"></script>
+	</body>
 </html>
