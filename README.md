@@ -1,11 +1,28 @@
 # Boulanger Framework
-* [Template](#template)
-* [CSS](#css)
-* [JavaScript](#js)
-* [Breakpoints](#breakpoints)
-* [Grid](#grid)
-* [Fonts](#fonts)
-* [Heading](#heading)
+<!-- TOC -->
+- [Boulanger Framework](#boulanger-framework)
+	- [Template](#template)
+	- [CSS](#css)
+	- [JavaScript](#javascript)
+	- [Breakpoints](#breakpoints)
+	- [Container](#container)
+	- [Grid](#grid)
+	- [Mixins](#mixins)
+	- [Display](#display)
+	- [Fonts](#fonts)
+	- [Heading](#heading)
+	- [Paragraph](#paragraph)
+	- [Text align](#text-align)
+	- [Text transform](#text-transform)
+	- [Vertical align](#vertical-align)
+	- [List](#list)
+		- [Default](#default)
+		- [Decimal](#decimal)
+		- [Unstyled](#unstyled)
+		- [Inline](#inline)
+		- [Description](#description)
+	- [Tables](#tables)
+<!-- /TOC -->
 
 ## Template
 ```html
@@ -73,13 +90,14 @@
 
 ---
 
+## Container
+```html
+<div class="hub-container"></div>
+```
+
+---
+
 ## Grid
-Le Framework utilise un système de grilles, allant de 1 à 24 colonnes.
-
-1 colonne représente 4.166% de la largeur du conteneur.
-
-Il est possible de varier la largeur des colonnes selon la taille de l'écran (XS, SM, MD, LG, XL).
-
 | Breakpoints | Classes        |
 | ----------- | -------------- |
 | Défaut      | `.hub-col-`    |
@@ -117,8 +135,6 @@ Il est possible de varier la largeur des colonnes selon la taille de l'écran (X
 	<div class="hub-col-24"></div>
 </div>
 ```
-
-Les classes ci-dessous permettent de décaler les colonnes sur la droite.
 
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
@@ -161,13 +177,50 @@ Les classes ci-dessous permettent de décaler les colonnes sur la droite.
 
 ---
 
+## Mixins
+```
+...
+```
+
+---
+
+## Display
+```
+class="hub-block"
+class="hub-flex"
+class="hub-inline-block"
+class="hub-none"
+class="hub-table"
+class="hub-table-cell"
+```
+
+---
+
 ## Fonts
 ```
 class="hub-open-sans"
 ```
 
+---
+
 ## Heading
+```
+class="hub-h1"
+class="hub-h2"
+class="hub-h3"
+class="hub-h4"
+class="hub-h5"
+class="hub-h6"
+```
 [Démo](heading.html)
+
+---
+
+## Paragraph
+```
+class="hub-p"
+```
+[Démo](paragraph.html)
 
 ---
 
@@ -179,7 +232,6 @@ class="hub-text-right"
 class="hub-text-justify"
 class="hub-text-nowrap"
 ```
-[Démo](text-align.html)
 
 ---
 
@@ -189,21 +241,29 @@ class="hub-text-lowercase"
 class="hub-text-uppercase"
 class="hub-text-capitalize"
 ```
-[Démo](text-transform.html)
+
+---
+
+## Vertical align
+```
+class="hub-align-top"
+class="hub-align-middle"
+class="hub-align-bottom"
+```
 
 ---
 
 ## List
 ### Default
 ```html
-<ul>
+<ul class="hub-list">
 	<li>...</li>
 </ul>
 ```
 
 ### Decimal
 ```html
-<ol>
+<ol class="hub-list-decimal">
 	<li>...</li>
 </ol>
 ```
@@ -221,4 +281,37 @@ class="hub-text-capitalize"
 	<li>...</li>
 </ul>
 ```
+
+### Description
+```html
+<dl class="hub-list-description">
+	<dt>...</dt>
+	<dd>...</dd>
+</dl>
+```
 [Démo](list.html)
+
+---
+
+## Tables
+```html
+<table class="hub-table">
+	<thead>
+		<tr>
+			<td></td>
+			<th>...</th>
+			<th>...</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>...</th>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+	</tbody>
+</table>
+```
+[Démo](table.html)
+
+---
