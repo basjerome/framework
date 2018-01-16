@@ -1,7 +1,7 @@
-# Boulanger Framework
+# Framework
 <!-- TOC -->
 
-- [Boulanger Framework](#boulanger-framework)
+- [Framework](#framework)
 	- [Template](#template)
 	- [CSS](#css)
 	- [JavaScript](#javascript)
