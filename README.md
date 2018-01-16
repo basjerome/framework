@@ -285,7 +285,7 @@ class="hub-align-text-bottom"
 	<div class="hub-col-offset-24">...</div>
 </div>
 ```
-[Démo](grid.html)
+[Démo](docs/grid.html)
 
 ---
 
@@ -312,7 +312,7 @@ class="hub-h4"
 class="hub-h5"
 class="hub-h6"
 ```
-[Démo](heading.html)
+[Démo](docs/heading.html)
 
 ---
 
@@ -320,7 +320,7 @@ class="hub-h6"
 ```
 class="hub-p"
 ```
-[Démo](paragraph.html)
+[Démo](docs/paragraph.html)
 
 ---
 
@@ -360,7 +360,7 @@ class="hub-p"
 	<dd>...</dd>
 </dl>
 ```
-[Démo](list.html)
+[Démo](docs/list.html)
 
 ---
 
@@ -390,7 +390,7 @@ class="hub-p"
 	</tbody>
 </table>
 ```
-[Démo](table.html)
+[Démo](docs/table.html)
 
 ---
 
