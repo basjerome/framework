@@ -95,7 +95,7 @@
 ---
 
 ## Utilities
-**Clearfix**
+> **Clearfix**
 
 ```html
 <div class="hub-clearfix">...</div>
@@ -120,7 +120,7 @@
 * orange
 * white
 
-**Backgrounds colors**
+> **Backgrounds colors**
 
 | Breakpoints | Classes                    |
 | ----------- | -------------------------- |
@@ -131,14 +131,14 @@
 | ≥992px      | `.hub-bg-color-{value}-lg` |
 | ≥1200px     | `.hub-bg-color-{value}-xl` |
 
-> Values :
+**Values :**
 * black
 * blue
 * dark-grey
 * orange
 * white
 
-**Display**
+> **Display**
 
 | Breakpoints | Classes           |
 | ----------- | ----------------- |
@@ -149,7 +149,7 @@
 | ≥992px      | `.hub-{value}-lg` |
 | ≥1200px     | `.hub-{value}-xl` |
 
-> Values :
+**Values :**
 * block
 * flex
 * inline-flex
@@ -159,7 +159,7 @@
 * table
 * table-cell
 
-**Embeds**
+> **Embeds**
 
 ```html
 <div class="embed-responsive">
@@ -168,7 +168,7 @@
 ```
 _Format 16/9_
 
-**Float**
+> **Float**
 
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
@@ -179,12 +179,12 @@ _Format 16/9_
 | ≥992px      | `.hub-float-{value}-lg` |
 | ≥1200px     | `.hub-float-{value}-xl` |
 
-> Values :
+**Values :**
 * left
 * righ
 * none
 
-**Text align**
+> **Text align**
 
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
@@ -195,14 +195,14 @@ _Format 16/9_
 | ≥992px      | `.hub-text-{value}-lg` |
 | ≥1200px     | `.hub-text-{value}-xl` |
 
-> Values :
+**Values :**
 * left
 * center
 * right
 * justify
 * nowrap
 
-**Text transform**
+> **Text transform**
 
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
@@ -213,12 +213,12 @@ _Format 16/9_
 | ≥992px      | `.hub-text-{value}-lg` |
 | ≥1200px     | `.hub-text-{value}-xl` |
 
-> Values :
+**Values :**
 * lowercase
 * uppercase
 * capitalize
 
-**Vertical align**
+> **Vertical align**
 
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
@@ -229,7 +229,7 @@ _Format 16/9_
 | ≥992px      | `.hub-align-{value}-lg` |
 | ≥1200px     | `.hub-align-{value}-xl` |
 
-> Values :
+**Values :**
 * baseline
 * top
 * middle
@@ -285,7 +285,7 @@ _Format 16/9_
 </div>
 ```
 
-**Décalage**
+> **Décalage**
 
 | Breakpoints | Classes                      |
 | ----------- | ---------------------------- |
@@ -364,7 +364,7 @@ class="hub-h6"
 ---
 
 ## List
-**Default**
+> **Default**
 
 ```html
 <ul class="hub-list">
@@ -372,7 +372,7 @@ class="hub-h6"
 </ul>
 ```
 
-**Decimal**
+> **Decimal**
 
 ```html
 <ol class="hub-list-decimal">
@@ -380,7 +380,7 @@ class="hub-h6"
 </ol>
 ```
 
-**Unstyled**
+> **Unstyled**
 
 ```html
 <ul class="hub-list-unstyled">
@@ -388,7 +388,7 @@ class="hub-h6"
 </ul>
 ```
 
-**Inline**
+> **Inline**
 
 ```html
 <ul class="hub-list-inline">
@@ -396,7 +396,7 @@ class="hub-h6"
 </ul>
 ```
 
-**Description**
+> **Description**
 
 ```html
 <dl class="hub-list-description">
