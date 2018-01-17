@@ -1,21 +1,20 @@
-# Framework
 <!-- TOC -->
 
-- [Framework](#framework)
-	- [Template](#template)
-	- [CSS](#css)
-	- [JavaScript](#javascript)
+- [Getting started](#getting-started)
+	- [Sources](#sources)
+	- [Starter template](#starter-template)
+- [Layout](#layout)
 	- [Breakpoints](#breakpoints)
-	- [Utilities](#utilities)
 	- [Container](#container)
 	- [Grid](#grid)
 	- [Mixins](#mixins)
-	- [Fonts](#fonts)
+- [Content](#content)
 	- [Heading](#heading)
 	- [Paragraph](#paragraph)
-	- [List](#list)
+	- [Lists](#lists)
 	- [Images](#images)
 	- [Tables](#tables)
+- [Components](#components)
 	- [Alerts](#alerts)
 	- [Breadcrumb](#breadcrumb)
 	- [Buttons](#buttons)
@@ -25,10 +24,36 @@
 	- [Modal](#modal)
 	- [Nav](#nav)
 	- [Pagination](#pagination)
+- [Utilities](#utilities)
+	- [Clearfix](#clearfix)
+	- [Backgrounds colors](#backgrounds-colors)
+	- [Colors](#colors)
+	- [Display](#display)
+	- [Embeds](#embeds)
+	- [Float](#float)
+	- [Fonts](#fonts)
+	- [Text align](#text-align)
+	- [Text transform](#text-transform)
+	- [Vertical align](#vertical-align)
 
 <!-- /TOC -->
 
-## Template
+# Getting started
+
+## Sources
+
+```html
+<!-- /CSS -->
+<link rel="stylesheet" href="dist/css/framework.min.css">
+
+<!-- /JavaScript -->
+<script type="text/javascript" src="dist/js/framework.min.js"></script>
+```
+
+---
+
+## Starter template
+
 ```html
 <!doctype html>
 <html lang="fr">
@@ -58,24 +83,11 @@
 </html>
 ```
 
----
-
-## CSS
-```html
-<link rel="stylesheet" href="dist/css/framework.min.css">
-```
-
----
-
-## JavaScript
-```html
-<script type="text/javascript" src="dist/js/framework.min.js"></script>
-```
-
----
+# Layout
 
 ## Breakpoints
-```
+
+```bash
 // XS (portrait phones)
 @media (max-width: 575.99px) { ... }
 
@@ -94,116 +106,8 @@
 
 ---
 
-## Utilities
-> **Clearfix**
-
-```html
-<div class="hub-clearfix">...</div>
-```
-
-> **Colors**
-
-_Values : {black | blue | dark-grey | orange | white}_
-
-| Breakpoints | Classes                 |
-| ----------- | ----------------------- |
-| Défaut      | `.hub-color-{value}`    |
-| XS          | `.hub-color-{value}-xs` |
-| SM          | `.hub-color-{value}-sm` |
-| MD          | `.hub-color-{value}-md` |
-| LG          | `.hub-color-{value}-lg` |
-| XL          | `.hub-color-{value}-xl` |
-
-> **Backgrounds colors**
-
-| Breakpoints | Classes                    |
-| ----------- | -------------------------- |
-| Défaut      | `.hub-bg-color-{value}`    |
-| XS          | `.hub-bg-color-{value}-xs` |
-| SM          | `.hub-bg-color-{value}-sm` |
-| MD          | `.hub-bg-color-{value}-md` |
-| LG          | `.hub-bg-color-{value}-lg` |
-| XL          | `.hub-bg-color-{value}-xl` |
-
-_Values : {black | blue | dark-grey | orange | white}_
-
-> **Display**
-
-| Breakpoints | Classes           |
-| ----------- | ----------------- |
-| Défaut      | `.hub-{value}`    |
-| XS          | `.hub-{value}-xs` |
-| SM          | `.hub-{value}-sm` |
-| MD          | `.hub-{value}-md` |
-| LG          | `.hub-{value}-lg` |
-| XL          | `.hub-{value}-xl` |
-
-_Values : {block | flex | inline-flex | inline | inline-block | none | table | table-cell}_
-
-> **Embeds**
-
-```html
-<div class="embed-responsive">
-	{embed | iframe | object | video}
-</div>
-```
-_Format 16/9_
-
-> **Float**
-
-| Breakpoints | Classes                 |
-| ----------- | ----------------------- |
-| Défaut      | `.hub-float-{value}`    |
-| XS          | `.hub-float-{value}-xs` |
-| SM          | `.hub-float-{value}-sm` |
-| MD          | `.hub-float-{value}-md` |
-| LG          | `.hub-float-{value}-lg` |
-| XL          | `.hub-float-{value}-xl` |
-
-_Values : {left | righ | none}_
-
-> **Text align**
-
-| Breakpoints | Classes                |
-| ----------- | ---------------------- |
-| Défaut      | `.hub-text-{value}`    |
-| XS          | `.hub-text-{value}-xs` |
-| SM          | `.hub-text-{value}-sm` |
-| MD          | `.hub-text-{value}-md` |
-| LG          | `.hub-text-{value}-lg` |
-| XL          | `.hub-text-{value}-xl` |
-
-_Values : {left | center | right | justify | nowrap}_
-
-> **Text transform**
-
-| Breakpoints | Classes                |
-| ----------- | ---------------------- |
-| Défaut      | `.hub-text-{value}`    |
-| XS          | `.hub-text-{value}-xs` |
-| SM          | `.hub-text-{value}-sm` |
-| MD          | `.hub-text-{value}-md` |
-| LG          | `.hub-text-{value}-lg` |
-| XL          | `.hub-text-{value}-xl` |
-
-_Values : {lowercase | uppercase | capitalize}_
-
-> **Vertical align**
-
-| Breakpoints | Classes                 |
-| ----------- | ----------------------- |
-| Défaut      | `.hub-align-{value}`    |
-| XS          | `.hub-align-{value}-xs` |
-| SM          | `.hub-align-{value}-sm` |
-| MD          | `.hub-align-{value}-md` |
-| LG          | `.hub-align-{value}-lg` |
-| XL          | `.hub-align-{value}-xl` |
-
-_Values : {baseline | top | middle | bottom | text-top | text-bottom}_
-
----
-
 ## Container
+
 ```html
 <div class="hub-container">...</div>
 ```
@@ -211,6 +115,7 @@ _Values : {baseline | top | middle | bottom | text-top | text-bottom}_
 ---
 
 ## Grid
+
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
 | Défaut      | `.hub-col-{value}`    |
@@ -288,26 +193,24 @@ _Values : {baseline | top | middle | bottom | text-top | text-bottom}_
 	<div class="hub-col-offset-24">...</div>
 </div>
 ```
+
 [Démo](docs/grid.html)
 
 ---
 
 ## Mixins
-```
+
+```bash
 ...
 ```
 
 ---
 
-## Fonts
-```
-class="hub-open-sans"
-```
-
----
+# Content
 
 ## Heading
-```
+
+```bash
 class="hub-h1"
 class="hub-h2"
 class="hub-h3"
@@ -315,19 +218,23 @@ class="hub-h4"
 class="hub-h5"
 class="hub-h6"
 ```
+
 [Démo](docs/heading.html)
 
 ---
 
 ## Paragraph
+
 ```html
 <p class="hub-p">...</p>
 ```
+
 [Démo](docs/paragraph.html)
 
 ---
 
-## List
+## Lists
+
 > **Default**
 
 ```html
@@ -368,11 +275,13 @@ class="hub-h6"
 	<dd>...</dd>
 </dl>
 ```
+
 [Démo](docs/list.html)
 
 ---
 
 ## Images
+
 ```html
 <img src="..." alt="..." class="hub-img" />
 ```
@@ -380,6 +289,7 @@ class="hub-h6"
 ---
 
 ## Tables
+
 ```html
 <table class="hub-table">
 	<thead>
@@ -398,31 +308,36 @@ class="hub-h6"
 	</tbody>
 </table>
 ```
+
 [Démo](docs/table.html)
 
 ---
 
+# Components
+
 ## Alerts
-```html
+
+```bash
 ...
 ```
 
 ---
 
 ## Breadcrumb
+
 ```html
 <nav class="hub-breadcrumb" aria-label="breadcrumb">
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-	  	<a href="#" title="..." itemprop="item">
+	  	<a href="##" title="..." itemprop="item">
 		  <span itemprop="name">Home</span>
 		</a>
 		<meta itemprop="position" content="1" />
 	  </li>
     <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-	  	<a href="#" title="..." itemprop="item"><span itemprop="name">Parent</span></a>
+	  	<a href="##" title="..." itemprop="item"><span itemprop="name">Parent</span></a>
 		<meta itemprop="position" content="2" />
 	  </li>
     <li itemprop="itemListElement" itemscope
@@ -437,14 +352,16 @@ class="hub-h6"
 ---
 
 ## Buttons
+
 ```html
-<a href="#" class="hub-btn hub-btn-orange" title="...">...</button>
+<a href="##" class="hub-btn hub-btn-orange" title="...">...</button>
 <button class="hub-btn hub-btn-orange" type="button">...</button>
 ```
 
 ---
 
 ## Carousel
+
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
 
@@ -498,13 +415,15 @@ class="hub-h6"
 ---
 
 ## Collapse
-```html
+
+```bash
 ...
 ```
 
 ---
 
 ## Form
+
 ```html
 <form class="hub-form">
   <div class="hub-form-group">
@@ -527,19 +446,21 @@ class="hub-h6"
 ---
 
 ## Modal
-```html
+
+```bash
 ...
 ```
 
 ---
 
 ## Nav
+
 ```html
 <nav class="hub-nav">
 	<ul>
-		<li><a href="#" title="...">...</a></li>
-		<li><a href="#" title="...">...</a></li>
-		<li><a href="#" title="...">...</a></li>
+		<li><a href="##" title="...">...</a></li>
+		<li><a href="##" title="...">...</a></li>
+		<li><a href="##" title="...">...</a></li>
 	</ul>
 </nav>
 ```
@@ -547,8 +468,142 @@ class="hub-h6"
 ---
 
 ## Pagination
-```html
+
+```bash
 ...
 ```
 
 ---
+
+# Utilities
+
+## Clearfix
+
+```html
+<div class="hub-clearfix">...</div>
+```
+
+---
+
+## Backgrounds colors
+
+| Breakpoints | Classes                    |
+| ----------- | -------------------------- |
+| Défaut      | `.hub-bg-color-{value}`    |
+| XS          | `.hub-bg-color-{value}-xs` |
+| SM          | `.hub-bg-color-{value}-sm` |
+| MD          | `.hub-bg-color-{value}-md` |
+| LG          | `.hub-bg-color-{value}-lg` |
+| XL          | `.hub-bg-color-{value}-xl` |
+
+_Values : {black | blue | dark-grey | orange | white}_
+
+---
+
+## Colors
+
+_Values : {black | blue | dark-grey | orange | white}_
+
+| Breakpoints | Classes                 |
+| ----------- | ----------------------- |
+| Défaut      | `.hub-color-{value}`    |
+| XS          | `.hub-color-{value}-xs` |
+| SM          | `.hub-color-{value}-sm` |
+| MD          | `.hub-color-{value}-md` |
+| LG          | `.hub-color-{value}-lg` |
+| XL          | `.hub-color-{value}-xl` |
+
+---
+
+## Display
+
+| Breakpoints | Classes           |
+| ----------- | ----------------- |
+| Défaut      | `.hub-{value}`    |
+| XS          | `.hub-{value}-xs` |
+| SM          | `.hub-{value}-sm` |
+| MD          | `.hub-{value}-md` |
+| LG          | `.hub-{value}-lg` |
+| XL          | `.hub-{value}-xl` |
+
+_Values : {block | flex | inline-flex | inline | inline-block | none | table | table-cell}_
+
+---
+
+## Embeds
+
+```html
+<div class="embed-responsive">
+	{embed | iframe | object | video}
+</div>
+```
+
+_Format 16/9_
+
+---
+
+## Float
+
+| Breakpoints | Classes                 |
+| ----------- | ----------------------- |
+| Défaut      | `.hub-float-{value}`    |
+| XS          | `.hub-float-{value}-xs` |
+| SM          | `.hub-float-{value}-sm` |
+| MD          | `.hub-float-{value}-md` |
+| LG          | `.hub-float-{value}-lg` |
+| XL          | `.hub-float-{value}-xl` |
+
+_Values : {left | righ | none}_
+
+---
+
+## Fonts
+
+```bash
+class="hub-open-sans"
+```
+
+---
+
+## Text align
+
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-text-{value}`    |
+| XS          | `.hub-text-{value}-xs` |
+| SM          | `.hub-text-{value}-sm` |
+| MD          | `.hub-text-{value}-md` |
+| LG          | `.hub-text-{value}-lg` |
+| XL          | `.hub-text-{value}-xl` |
+
+_Values : {left | center | right | justify | nowrap}_
+
+---
+
+## Text transform
+
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-text-{value}`    |
+| XS          | `.hub-text-{value}-xs` |
+| SM          | `.hub-text-{value}-sm` |
+| MD          | `.hub-text-{value}-md` |
+| LG          | `.hub-text-{value}-lg` |
+| XL          | `.hub-text-{value}-xl` |
+
+_Values : {lowercase | uppercase | capitalize}_
+
+---
+
+## Vertical align
+
+| Breakpoints | Classes                 |
+| ----------- | ----------------------- |
+| Défaut      | `.hub-align-{value}`    |
+| XS          | `.hub-align-{value}-xs` |
+| SM          | `.hub-align-{value}-sm` |
+| MD          | `.hub-align-{value}-md` |
+| LG          | `.hub-align-{value}-lg` |
+| XL          | `.hub-align-{value}-xl` |
+
+_Values : {baseline | top | middle | bottom | text-top | text-bottom}_
