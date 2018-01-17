@@ -1,0 +1,23 @@
+body {
+
+  @include breakpoints($xs) {
+    background-color: rgba($black,.5);
+  }
+
+  @include breakpoints($sm) {
+    background-color: rgba($blue,.5);
+  }
+
+  @include breakpoints($md) {
+    background-color: rgba($dark-grey,.5);
+  }
+
+  @include breakpoints($lg) {
+    background-color: rgba($orange,.5);
+  }
+
+  @include breakpoints($xl) {
+    background-color: rgba($white,.5);
+  }
+
+}

@@ -9,15 +9,23 @@
 	- [Utilities](#utilities)
 		- [Clearfix](#clearfix)
 		- [Colors](#colors)
+			- [> #### Values :](#values)
 		- [Backgrounds colors](#backgrounds-colors)
+			- [> #### Values :](#values)
 		- [Display](#display)
+			- [> #### Values :](#values)
 		- [Embeds](#embeds)
 		- [Float](#float)
+			- [> #### Values :](#values)
 		- [Text align](#text-align)
+			- [> #### Values :](#values)
 		- [Text transform](#text-transform)
+			- [> #### Values :](#values)
 		- [Vertical align](#vertical-align)
+			- [> #### Values :](#values)
 	- [Container](#container)
 	- [Grid](#grid)
+		- [Décalage](#d%C3%A9calage)
 	- [Mixins](#mixins)
 	- [Fonts](#fonts)
 	- [Heading](#heading)
@@ -115,90 +123,131 @@
 ```
 
 ### Colors
-```
-class="hub-color-blue"
-class="hub-color-orange"
-```
+| Breakpoints | Classes                 |
+| ----------- | ----------------------- |
+| Défaut      | `.hub-color-{value}`    |
+| <576px      | `.hub-color-{value}-xs` |
+| ≥576px      | `.hub-color-{value}-sm` |
+| ≥768px      | `.hub-color-{value}-md` |
+| ≥992px      | `.hub-color-{value}-lg` |
+| ≥1200px     | `.hub-color-{value}-xl` |
+
+> #### Values :
+* black
+* blue
+* dark-grey
+* orange
+* white
 
 ### Backgrounds colors
-```
-class="hub-bg-color-blue"
-class="hub-bg-color-orange"
-```
+| Breakpoints | Classes                    |
+| ----------- | -------------------------- |
+| Défaut      | `.hub-bg-color-{value}`    |
+| <576px      | `.hub-bg-color-{value}-xs` |
+| ≥576px      | `.hub-bg-color-{value}-sm` |
+| ≥768px      | `.hub-bg-color-{value}-md` |
+| ≥992px      | `.hub-bg-color-{value}-lg` |
+| ≥1200px     | `.hub-bg-color-{value}-xl` |
+
+> #### Values :
+* black
+* blue
+* dark-grey
+* orange
+* white
 
 ### Display
-| Breakpoints | Classes              |
-| ----------- | -------------------- |
-| Défaut      | `.hub-{display}`     |
-| <576px      | `.hub-{display}-xs-` |
-| ≥576px      | `.hub-{display}-sm-` |
-| ≥768px      | `.hub-{display}-md-` |
-| ≥992px      | `.hub-{display}-lg-` |
-| ≥1200px     | `.hub-{display}-xl-` |
+| Breakpoints | Classes           |
+| ----------- | ----------------- |
+| Défaut      | `.hub-{value}`    |
+| <576px      | `.hub-{value}-xs` |
+| ≥576px      | `.hub-{value}-sm` |
+| ≥768px      | `.hub-{value}-md` |
+| ≥992px      | `.hub-{value}-lg` |
+| ≥1200px     | `.hub-{value}-xl` |
 
-```
-class="hub-block"
-class="hub-flex"
-class="hub-inline-flex"
-class="hub-inline"
-class="hub-inline-block"
-class="hub-none"
-class="hub-table"
-class="hub-table-cell"
-```
+> #### Values :
+* block
+* flex
+* inline-flex
+* inline
+* inline-block
+* none
+* table
+* table-cell
 
 ### Embeds
 ```html
 <div class="embed-responsive">
-	<iframe src="..." allowfullscreen></iframe>
+	{embed | iframe | object | video}
 </div>
 ```
-
-* embed
-* iframe
-* object
-* video
+_Format 16/9_
 
 ### Float
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-float-{value}`    |
-| <576px      | `.hub-float-xs-{value}` |
-| ≥576px      | `.hub-float-sm-{value}` |
-| ≥768px      | `.hub-float-md-{value}` |
-| ≥992px      | `.hub-float-lg-{value}` |
-| ≥1200px     | `.hub-float-xl-{value}` |
-```
-class="float-left"
-class="float-right"
-class="float-none"
-```
+| <576px      | `.hub-float-{value}-xs` |
+| ≥576px      | `.hub-float-{value}-sm` |
+| ≥768px      | `.hub-float-{value}-md` |
+| ≥992px      | `.hub-float-{value}-lg` |
+| ≥1200px     | `.hub-float-{value}-xl` |
+
+> #### Values :
+* left
+* righ
+* none
 
 ### Text align
-```
-class="hub-text-left"
-class="hub-text-center"
-class="hub-text-right"
-class="hub-text-justify"
-class="hub-text-nowrap"
-```
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-text-{value}`    |
+| <576px      | `.hub-text-{value}-xs` |
+| ≥576px      | `.hub-text-{value}-sm` |
+| ≥768px      | `.hub-text-{value}-md` |
+| ≥992px      | `.hub-text-{value}-lg` |
+| ≥1200px     | `.hub-text-{value}-xl` |
+
+> #### Values :
+* left
+* center
+* right
+* justify
+* nowrap
 
 ### Text transform
-```
-class="hub-text-lowercase"
-class="hub-text-uppercase"
-class="hub-text-capitalize"
-```
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-text-{value}`    |
+| <576px      | `.hub-text-{value}-xs` |
+| ≥576px      | `.hub-text-{value}-sm` |
+| ≥768px      | `.hub-text-{value}-md` |
+| ≥992px      | `.hub-text-{value}-lg` |
+| ≥1200px     | `.hub-text-{value}-xl` |
+
+> #### Values :
+* lowercase
+* uppercase
+* capitalize
 
 ### Vertical align
-```
-class="hub-align-baseline"
-class="hub-align-top"
-class="hub-align-middle"
-class="hub-align-bottom"
-class="hub-align-text-top"
-class="hub-align-text-bottom"
-```
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-align-{value}`    |
+| <576px      | `.hub-align-{value}-xs` |
+| ≥576px      | `.hub-align-{value}-sm` |
+| ≥768px      | `.hub-align-{value}-md` |
+| ≥992px      | `.hub-align-{value}-lg` |
+| ≥1200px     | `.hub-align-{value}-xl` |
+
+> #### Values :
+* baseline
+* top
+* middle
+* bottom
+* text-top
+* text-bottom
 
 ---
 
@@ -213,11 +262,11 @@ class="hub-align-text-bottom"
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
 | Défaut      | `.hub-col-{value}`    |
-| <576px      | `.hub-col-xs-{value}` |
-| ≥576px      | `.hub-col-sm-{value}` |
-| ≥768px      | `.hub-col-md-{value}` |
-| ≥992px      | `.hub-col-lg-{value}` |
-| ≥1200px     | `.hub-col-xl-{value}` |
+| <576px      | `.hub-col-{value}-xs` |
+| ≥576px      | `.hub-col-{value}-sm` |
+| ≥768px      | `.hub-col-{value}-md` |
+| ≥992px      | `.hub-col-{value}-lg` |
+| ≥1200px     | `.hub-col-{value}-xl` |
 
 ```html
 <div class="hub-row">
@@ -248,14 +297,15 @@ class="hub-align-text-bottom"
 </div>
 ```
 
+### Décalage
 | Breakpoints | Classes                      |
 | ----------- | ---------------------------- |
 | Défaut      | `.hub-col-offset-{value}`    |
-| <576px      | `.hub-col-xs-offset-{value}` |
-| ≥576px      | `.hub-col-sm-offset-{value}` |
-| ≥768px      | `.hub-col-md-offset-{value}` |
-| ≥992px      | `.hub-col-lg-offset-{value}` |
-| ≥1200px     | `.hub-col-xl-offset-{value}` |
+| <576px      | `.hub-col-offset-{value}-xs` |
+| ≥576px      | `.hub-col-offset-{value}-sm` |
+| ≥768px      | `.hub-col-offset-{value}-md` |
+| ≥992px      | `.hub-col-offset-{value}-lg` |
+| ≥1200px     | `.hub-col-offset-{value}-xl` |
 
 ```html
 <div class="hub-row">
@@ -317,8 +367,8 @@ class="hub-h6"
 ---
 
 ## Paragraph
-```
-class="hub-p"
+```html
+<p class="hub-p">...</p>
 ```
 [Démo](docs/paragraph.html)
 
@@ -438,7 +488,53 @@ class="hub-p"
 
 ## Carousel
 ```html
-...
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+<script type="text/javascript">
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+</script>
 ```
 
 ---
@@ -452,7 +548,22 @@ class="hub-p"
 
 ## Form
 ```html
-...
+<form class="hub-form">
+  <div class="hub-form-group">
+    <label for="inputEmail">Label</label>
+    <input type="email" id="inputEmail" aria-describedby="emailHelp" placeholder="Placeholder">
+    <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+  </div>
+  <div class="hub-form-group">
+    <label for="inputPassword">Label</label>
+    <input type="password" id="inputPassword" placeholder="Placeholder">
+  </div>
+  <div class="hub-form-group">
+    <input type="checkbox" id="inputCheck">
+    <label for="inputCheck">Label</label>
+  </div>
+  <button type="submit" class="hub-btn hub-btn-orange">...</button>
+</form>
 ```
 
 ---
@@ -466,7 +577,13 @@ class="hub-p"
 
 ## Nav
 ```html
-...
+<nav class="hub-nav">
+	<ul>
+		<li><a href="#" title="...">...</a></li>
+		<li><a href="#" title="...">...</a></li>
+		<li><a href="#" title="...">...</a></li>
+	</ul>
+</nav>
 ```
 
 ---

@@ -1,0 +1,6 @@
+// Breakpoints
+@mixin breakpoints($media) {
+    @media only screen and #{$media} {
+        @content;
+    }
+}
