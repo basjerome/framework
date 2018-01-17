@@ -96,11 +96,13 @@
 
 ## Utilities
 **Clearfix**
+
 ```html
 <div class="hub-clearfix">...</div>
 ```
 
 **Colors**
+
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
@@ -118,6 +120,7 @@
 * white
 
 **Backgrounds colors**
+
 | Breakpoints | Classes                    |
 | ----------- | -------------------------- |
 | Défaut      | `.hub-bg-color-{value}`    |
@@ -135,6 +138,7 @@
 * white
 
 **Display**
+
 | Breakpoints | Classes           |
 | ----------- | ----------------- |
 | Défaut      | `.hub-{value}`    |
@@ -155,6 +159,7 @@
 * table-cell
 
 **Embeds**
+
 ```html
 <div class="embed-responsive">
 	{embed | iframe | object | video}
@@ -163,6 +168,7 @@
 _Format 16/9_
 
 **Float**
+
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-float-{value}`    |
@@ -178,6 +184,7 @@ _Format 16/9_
 * none
 
 **Text align**
+
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
@@ -195,6 +202,7 @@ _Format 16/9_
 * nowrap
 
 **Text transform**
+
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
@@ -210,6 +218,7 @@ _Format 16/9_
 * capitalize
 
 **Vertical align**
+
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-align-{value}`    |
@@ -276,6 +285,7 @@ _Format 16/9_
 ```
 
 **Décalage**
+
 | Breakpoints | Classes                      |
 | ----------- | ---------------------------- |
 | Défaut      | `.hub-col-offset-{value}`    |
@@ -354,6 +364,7 @@ class="hub-h6"
 
 ## List
 **Default**
+
 ```html
 <ul class="hub-list">
 	<li>...</li>
@@ -361,6 +372,7 @@ class="hub-h6"
 ```
 
 **Decimal**
+
 ```html
 <ol class="hub-list-decimal">
 	<li>...</li>
@@ -368,6 +380,7 @@ class="hub-h6"
 ```
 
 **Unstyled**
+
 ```html
 <ul class="hub-list-unstyled">
 	<li>...</li>
@@ -375,6 +388,7 @@ class="hub-h6"
 ```
 
 **Inline**
+
 ```html
 <ul class="hub-list-inline">
 	<li>...</li>
@@ -382,6 +396,7 @@ class="hub-h6"
 ```
 
 **Description**
+
 ```html
 <dl class="hub-list-description">
 	<dt>...</dt>
