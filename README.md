@@ -102,7 +102,7 @@
 ```
 
 > **Colors**
-
+Values : {black | blue | dark-grey | orange | white}
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
@@ -111,14 +111,6 @@
 | MD          | `.hub-color-{value}-md` |
 | LG          | `.hub-color-{value}-lg` |
 | XL          | `.hub-color-{value}-xl` |
-
-Values :
-
-* black
-* blue
-* dark-grey
-* orange
-* white
 
 > **Backgrounds colors**
 
@@ -220,8 +212,8 @@ Values :
 
 > **Vertical align**
 
-| Breakpoints | Classes                |
-| ----------- | ---------------------- |
+| Breakpoints | Classes                 |
+| ----------- | ----------------------- |
 | Défaut      | `.hub-align-{value}`    |
 | XS          | `.hub-align-{value}-xs` |
 | SM          | `.hub-align-{value}-sm` |
