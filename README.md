@@ -103,7 +103,7 @@
 
 > **Colors**
 
-Values : {black | blue | dark-grey | orange | white}
+_Values : {black | blue | dark-grey | orange | white}_
 
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
@@ -125,12 +125,7 @@ Values : {black | blue | dark-grey | orange | white}
 | LG          | `.hub-bg-color-{value}-lg` |
 | XL          | `.hub-bg-color-{value}-xl` |
 
-Values :
-* black
-* blue
-* dark-grey
-* orange
-* white
+_Values : {black | blue | dark-grey | orange | white}_
 
 > **Display**
 
@@ -143,15 +138,7 @@ Values :
 | LG          | `.hub-{value}-lg` |
 | XL          | `.hub-{value}-xl` |
 
-Values :
-* block
-* flex
-* inline-flex
-* inline
-* inline-block
-* none
-* table
-* table-cell
+_Values : {block | flex | inline-flex | inline | inline-block | none | table | table-cell}_
 
 > **Embeds**
 
@@ -173,10 +160,7 @@ _Format 16/9_
 | LG          | `.hub-float-{value}-lg` |
 | XL          | `.hub-float-{value}-xl` |
 
-Values :
-* left
-* righ
-* none
+_Values : {left | righ | none}_
 
 > **Text align**
 
@@ -189,12 +173,7 @@ Values :
 | LG          | `.hub-text-{value}-lg` |
 | XL          | `.hub-text-{value}-xl` |
 
-Values :
-* left
-* center
-* right
-* justify
-* nowrap
+_Values : {left | center | right | justify | nowrap}_
 
 > **Text transform**
 
@@ -207,10 +186,7 @@ Values :
 | LG          | `.hub-text-{value}-lg` |
 | XL          | `.hub-text-{value}-xl` |
 
-Values :
-* lowercase
-* uppercase
-* capitalize
+_Values : {lowercase | uppercase | capitalize}_
 
 > **Vertical align**
 
@@ -223,13 +199,7 @@ Values :
 | LG          | `.hub-align-{value}-lg` |
 | XL          | `.hub-align-{value}-xl` |
 
-Values :
-* baseline
-* top
-* middle
-* bottom
-* text-top
-* text-bottom
+_Values : {baseline | top | middle | bottom | text-top | text-bottom}_
 
 ---
 
