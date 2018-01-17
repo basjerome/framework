@@ -1,23 +1,401 @@
 body {
+	@include breakpoints($xs) {
+		background-color: rgba($black,1);
+	}
 
-  @include breakpoints($xs) {
-    background-color: rgba($black,.5);
-  }
+	@include breakpoints($sm) {
+		background-color: $blue;
+	}
 
-  @include breakpoints($sm) {
-    background-color: rgba($blue,.5);
-  }
+	@include breakpoints($md) {
+		background-color: rgba($dark-grey,1);
+	}
 
-  @include breakpoints($md) {
-    background-color: rgba($dark-grey,.5);
-  }
+	@include breakpoints($lg) {
+		background-color: $orange;
+	}
 
-  @include breakpoints($lg) {
-    background-color: rgba($orange,.5);
-  }
+	@include breakpoints($xl) {
+		background-color: rgba($white,1);
+	}
+}
+/*---------------*\
+  $GRID
+\*---------------*/
+/**
+ * ROW.............
+ * COL.............
+ * OFFSET..........
+*/
 
-  @include breakpoints($xl) {
-    background-color: rgba($white,.5);
-  }
+// Row
+.hub-row {
+	&::before,
+	&::after {
+		content: " ";
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}
 
+// Col
+.hub-col {
+	&-1 {
+		float: left;
+		width: 4.166%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 4.166% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 4.166% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 4.166% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 4.166% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 4.166% !important;
+			}
+		}
+	}
+
+	&-2 {
+		float: left;
+		width: 8.333%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 8.333% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 8.333% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 8.333% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 8.333% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 8.333% !important;
+			}
+		}
+	}
+
+	&-3 {
+		float: left;
+		width: 12.5%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 12.5% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 12.5% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 12.5% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 12.5% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 12.5% !important;
+			}
+		}
+	}
+
+	&-4 {
+		float: left;
+		width: 16.666%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 16.666% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 16.666% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 16.666% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 16.666% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 16.666% !important;
+			}
+		}
+	}
+
+	&-5 {
+		float: left;
+		width: 20.833%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 20.833% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 20.833% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 20.833% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 20.833% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 20.833% !important;
+			}
+		}
+	}
+
+	&-6 {
+		float: left;
+		width: 25%;
+		@include breakpoints($xs) {
+			&-xs {
+				width: 25% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				width: 25% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				width: 25% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				width: 25% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				width: 25% !important;
+			}
+		}
+	}
+}
+
+// Offset
+.hub-col-offset {
+	&-1 {
+		margin-left: 4.166%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 4.166% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 4.166% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 4.166% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 4.166% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 4.166% !important;
+			}
+		}
+	}
+
+	&-2 {
+		margin-left: 8.333%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 8.333% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 8.333% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 8.333% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 8.333% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 8.333% !important;
+			}
+		}
+	}
+
+	&-3 {
+		margin-left: 12.5%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 12.5% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 12.5% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 12.5% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 12.5% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 12.5% !important;
+			}
+		}
+	}
+
+	&-4 {
+		margin-left: 16.666%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 16.666% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 16.666% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 16.666% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 16.666% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 16.666% !important;
+			}
+		}
+	}
+
+	&-5 {
+		margin-left: 20.833%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 20.833% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 20.833% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 20.833% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 20.833% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 20.833% !important;
+			}
+		}
+	}
+
+	&-6 {
+		margin-left: 25%;
+		@include breakpoints($xs) {
+			&-xs {
+				margin-left: 25% !important;
+			}
+		}
+		@include breakpoints($sm) {
+			&-sm {
+				margin-left: 25% !important;
+			}
+		}
+		@include breakpoints($md) {
+			&-md {
+				margin-left: 25% !important;
+			}
+		}
+		@include breakpoints($lg) {
+			&-lg {
+				margin-left: 25% !important;
+			}
+		}
+		@include breakpoints($xl) {
+			&-xl {
+				margin-left: 25% !important;
+			}
+		}
+	}
 }
