@@ -106,13 +106,13 @@
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
-| <576px      | `.hub-color-{value}-xs` |
-| ≥576px      | `.hub-color-{value}-sm` |
-| ≥768px      | `.hub-color-{value}-md` |
-| ≥992px      | `.hub-color-{value}-lg` |
-| ≥1200px     | `.hub-color-{value}-xl` |
+| XS          | `.hub-color-{value}-xs` |
+| SM          | `.hub-color-{value}-sm` |
+| MD          | `.hub-color-{value}-md` |
+| LG          | `.hub-color-{value}-lg` |
+| XL          | `.hub-color-{value}-xl` |
 
-**Values :**
+Values :
 
 * black
 * blue
@@ -125,13 +125,13 @@
 | Breakpoints | Classes                    |
 | ----------- | -------------------------- |
 | Défaut      | `.hub-bg-color-{value}`    |
-| <576px      | `.hub-bg-color-{value}-xs` |
-| ≥576px      | `.hub-bg-color-{value}-sm` |
-| ≥768px      | `.hub-bg-color-{value}-md` |
-| ≥992px      | `.hub-bg-color-{value}-lg` |
-| ≥1200px     | `.hub-bg-color-{value}-xl` |
+| XS          | `.hub-bg-color-{value}-xs` |
+| SM          | `.hub-bg-color-{value}-sm` |
+| MD          | `.hub-bg-color-{value}-md` |
+| LG          | `.hub-bg-color-{value}-lg` |
+| XL          | `.hub-bg-color-{value}-xl` |
 
-**Values :**
+Values :
 * black
 * blue
 * dark-grey
@@ -143,13 +143,13 @@
 | Breakpoints | Classes           |
 | ----------- | ----------------- |
 | Défaut      | `.hub-{value}`    |
-| <576px      | `.hub-{value}-xs` |
-| ≥576px      | `.hub-{value}-sm` |
-| ≥768px      | `.hub-{value}-md` |
-| ≥992px      | `.hub-{value}-lg` |
-| ≥1200px     | `.hub-{value}-xl` |
+| XS          | `.hub-{value}-xs` |
+| SM          | `.hub-{value}-sm` |
+| MD          | `.hub-{value}-md` |
+| LG          | `.hub-{value}-lg` |
+| XL          | `.hub-{value}-xl` |
 
-**Values :**
+Values :
 * block
 * flex
 * inline-flex
@@ -173,13 +173,13 @@ _Format 16/9_
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-float-{value}`    |
-| <576px      | `.hub-float-{value}-xs` |
-| ≥576px      | `.hub-float-{value}-sm` |
-| ≥768px      | `.hub-float-{value}-md` |
-| ≥992px      | `.hub-float-{value}-lg` |
-| ≥1200px     | `.hub-float-{value}-xl` |
+| XS          | `.hub-float-{value}-xs` |
+| SM          | `.hub-float-{value}-sm` |
+| MD          | `.hub-float-{value}-md` |
+| LG          | `.hub-float-{value}-lg` |
+| XL          | `.hub-float-{value}-xl` |
 
-**Values :**
+Values :
 * left
 * righ
 * none
@@ -189,13 +189,13 @@ _Format 16/9_
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
-| <576px      | `.hub-text-{value}-xs` |
-| ≥576px      | `.hub-text-{value}-sm` |
-| ≥768px      | `.hub-text-{value}-md` |
-| ≥992px      | `.hub-text-{value}-lg` |
-| ≥1200px     | `.hub-text-{value}-xl` |
+| XS          | `.hub-text-{value}-xs` |
+| SM          | `.hub-text-{value}-sm` |
+| MD          | `.hub-text-{value}-md` |
+| LG          | `.hub-text-{value}-lg` |
+| XL          | `.hub-text-{value}-xl` |
 
-**Values :**
+Values :
 * left
 * center
 * right
@@ -207,13 +207,13 @@ _Format 16/9_
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
-| <576px      | `.hub-text-{value}-xs` |
-| ≥576px      | `.hub-text-{value}-sm` |
-| ≥768px      | `.hub-text-{value}-md` |
-| ≥992px      | `.hub-text-{value}-lg` |
-| ≥1200px     | `.hub-text-{value}-xl` |
+| XS          | `.hub-text-{value}-xs` |
+| SM          | `.hub-text-{value}-sm` |
+| MD          | `.hub-text-{value}-md` |
+| LG          | `.hub-text-{value}-lg` |
+| XL          | `.hub-text-{value}-xl` |
 
-**Values :**
+Values :
 * lowercase
 * uppercase
 * capitalize
@@ -223,13 +223,13 @@ _Format 16/9_
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-align-{value}`    |
-| <576px      | `.hub-align-{value}-xs` |
-| ≥576px      | `.hub-align-{value}-sm` |
-| ≥768px      | `.hub-align-{value}-md` |
-| ≥992px      | `.hub-align-{value}-lg` |
-| ≥1200px     | `.hub-align-{value}-xl` |
+| XS          | `.hub-align-{value}-xs` |
+| SM          | `.hub-align-{value}-sm` |
+| MD          | `.hub-align-{value}-md` |
+| LG          | `.hub-align-{value}-lg` |
+| XL          | `.hub-align-{value}-xl` |
 
-**Values :**
+Values :
 * baseline
 * top
 * middle
@@ -250,11 +250,11 @@ _Format 16/9_
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
 | Défaut      | `.hub-col-{value}`    |
-| <576px      | `.hub-col-{value}-xs` |
-| ≥576px      | `.hub-col-{value}-sm` |
-| ≥768px      | `.hub-col-{value}-md` |
-| ≥992px      | `.hub-col-{value}-lg` |
-| ≥1200px     | `.hub-col-{value}-xl` |
+| XS          | `.hub-col-{value}-xs` |
+| SM          | `.hub-col-{value}-sm` |
+| MD          | `.hub-col-{value}-md` |
+| LG          | `.hub-col-{value}-lg` |
+| XL          | `.hub-col-{value}-xl` |
 
 ```html
 <div class="hub-row">
@@ -290,11 +290,11 @@ _Format 16/9_
 | Breakpoints | Classes                      |
 | ----------- | ---------------------------- |
 | Défaut      | `.hub-col-offset-{value}`    |
-| <576px      | `.hub-col-offset-{value}-xs` |
-| ≥576px      | `.hub-col-offset-{value}-sm` |
-| ≥768px      | `.hub-col-offset-{value}-md` |
-| ≥992px      | `.hub-col-offset-{value}-lg` |
-| ≥1200px     | `.hub-col-offset-{value}-xl` |
+| XS          | `.hub-col-offset-{value}-xs` |
+| SM          | `.hub-col-offset-{value}-sm` |
+| MD          | `.hub-col-offset-{value}-md` |
+| LG          | `.hub-col-offset-{value}-lg` |
+| XL          | `.hub-col-offset-{value}-xl` |
 
 ```html
 <div class="hub-row">
