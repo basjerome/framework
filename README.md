@@ -102,7 +102,9 @@
 ```
 
 > **Colors**
+
 Values : {black | blue | dark-grey | orange | white}
+
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
