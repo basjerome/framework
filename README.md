@@ -7,35 +7,13 @@
 	- [JavaScript](#javascript)
 	- [Breakpoints](#breakpoints)
 	- [Utilities](#utilities)
-		- [Clearfix](#clearfix)
-		- [Colors](#colors)
-			- [> #### Values :](#values)
-		- [Backgrounds colors](#backgrounds-colors)
-			- [> #### Values :](#values)
-		- [Display](#display)
-			- [> #### Values :](#values)
-		- [Embeds](#embeds)
-		- [Float](#float)
-			- [> #### Values :](#values)
-		- [Text align](#text-align)
-			- [> #### Values :](#values)
-		- [Text transform](#text-transform)
-			- [> #### Values :](#values)
-		- [Vertical align](#vertical-align)
-			- [> #### Values :](#values)
 	- [Container](#container)
 	- [Grid](#grid)
-		- [Décalage](#d%C3%A9calage)
 	- [Mixins](#mixins)
 	- [Fonts](#fonts)
 	- [Heading](#heading)
 	- [Paragraph](#paragraph)
 	- [List](#list)
-		- [Default](#default)
-		- [Decimal](#decimal)
-		- [Unstyled](#unstyled)
-		- [Inline](#inline)
-		- [Description](#description)
 	- [Images](#images)
 	- [Tables](#tables)
 	- [Alerts](#alerts)
@@ -117,12 +95,12 @@
 ---
 
 ## Utilities
-### Clearfix
+**Clearfix**
 ```html
 <div class="hub-clearfix">...</div>
 ```
 
-### Colors
+**Colors**
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
@@ -132,14 +110,14 @@
 | ≥992px      | `.hub-color-{value}-lg` |
 | ≥1200px     | `.hub-color-{value}-xl` |
 
-> #### Values :
+> Values :
 * black
 * blue
 * dark-grey
 * orange
 * white
 
-### Backgrounds colors
+**Backgrounds colors**
 | Breakpoints | Classes                    |
 | ----------- | -------------------------- |
 | Défaut      | `.hub-bg-color-{value}`    |
@@ -149,14 +127,14 @@
 | ≥992px      | `.hub-bg-color-{value}-lg` |
 | ≥1200px     | `.hub-bg-color-{value}-xl` |
 
-> #### Values :
+> Values :
 * black
 * blue
 * dark-grey
 * orange
 * white
 
-### Display
+**Display**
 | Breakpoints | Classes           |
 | ----------- | ----------------- |
 | Défaut      | `.hub-{value}`    |
@@ -166,7 +144,7 @@
 | ≥992px      | `.hub-{value}-lg` |
 | ≥1200px     | `.hub-{value}-xl` |
 
-> #### Values :
+> Values :
 * block
 * flex
 * inline-flex
@@ -176,7 +154,7 @@
 * table
 * table-cell
 
-### Embeds
+**Embeds**
 ```html
 <div class="embed-responsive">
 	{embed | iframe | object | video}
@@ -184,7 +162,7 @@
 ```
 _Format 16/9_
 
-### Float
+**Float**
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-float-{value}`    |
@@ -194,12 +172,12 @@ _Format 16/9_
 | ≥992px      | `.hub-float-{value}-lg` |
 | ≥1200px     | `.hub-float-{value}-xl` |
 
-> #### Values :
+> Values :
 * left
 * righ
 * none
 
-### Text align
+**Text align**
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
@@ -209,14 +187,14 @@ _Format 16/9_
 | ≥992px      | `.hub-text-{value}-lg` |
 | ≥1200px     | `.hub-text-{value}-xl` |
 
-> #### Values :
+> Values :
 * left
 * center
 * right
 * justify
 * nowrap
 
-### Text transform
+**Text transform**
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-text-{value}`    |
@@ -226,12 +204,12 @@ _Format 16/9_
 | ≥992px      | `.hub-text-{value}-lg` |
 | ≥1200px     | `.hub-text-{value}-xl` |
 
-> #### Values :
+> Values :
 * lowercase
 * uppercase
 * capitalize
 
-### Vertical align
+**Vertical align**
 | Breakpoints | Classes                |
 | ----------- | ---------------------- |
 | Défaut      | `.hub-align-{value}`    |
@@ -241,7 +219,7 @@ _Format 16/9_
 | ≥992px      | `.hub-align-{value}-lg` |
 | ≥1200px     | `.hub-align-{value}-xl` |
 
-> #### Values :
+> Values :
 * baseline
 * top
 * middle
@@ -297,7 +275,7 @@ _Format 16/9_
 </div>
 ```
 
-### Décalage
+**Décalage**
 | Breakpoints | Classes                      |
 | ----------- | ---------------------------- |
 | Défaut      | `.hub-col-offset-{value}`    |
@@ -375,35 +353,35 @@ class="hub-h6"
 ---
 
 ## List
-### Default
+**Default**
 ```html
 <ul class="hub-list">
 	<li>...</li>
 </ul>
 ```
 
-### Decimal
+**Decimal**
 ```html
 <ol class="hub-list-decimal">
 	<li>...</li>
 </ol>
 ```
 
-### Unstyled
+**Unstyled**
 ```html
 <ul class="hub-list-unstyled">
 	<li>...</li>
 </ul>
 ```
 
-### Inline
+**Inline**
 ```html
 <ul class="hub-list-inline">
 	<li>...</li>
 </ul>
 ```
 
-### Description
+**Description**
 ```html
 <dl class="hub-list-description">
 	<dt>...</dt>
