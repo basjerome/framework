@@ -102,6 +102,7 @@
 ```
 
 > **Colors**
+
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
