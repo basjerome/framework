@@ -6,9 +6,12 @@
 @import "utils/functions";
 @import "utils/mixins";
 
-@import "theme/theme";
+@import "theme/default";
 
+@import "base/bg-colors";
 @import "base/colors";
+@import "base/display";
+@import "base/float";
 @import "base/fonts";
 
 @import "layout/grid";

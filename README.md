@@ -29,7 +29,7 @@
 	- [Backgrounds colors](#backgrounds-colors)
 	- [Colors](#colors)
 	- [Display](#display)
-	- [Embeds](#embeds)
+	- [Embed](#embed)
 	- [Float](#float)
 	- [Fonts](#fonts)
 	- [Text align](#text-align)
@@ -429,7 +429,6 @@ class="hub-h6"
   <div class="hub-form-group">
     <label for="inputEmail">Label</label>
     <input type="email" id="inputEmail" aria-describedby="emailHelp" placeholder="Placeholder">
-    <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
   </div>
   <div class="hub-form-group">
     <label for="inputPassword">Label</label>
@@ -530,10 +529,10 @@ _Values : {block | flex | inline-flex | inline | inline-block | none | table | t
 
 ---
 
-## Embeds
+## Embed
 
 ```html
-<div class="embed-responsive">
+<div class="hub-embed">
 	{embed | iframe | object | video}
 </div>
 ```
@@ -559,8 +558,91 @@ _Values : {left | righ | none}_
 
 ## Fonts
 
-```bash
-class="hub-open-sans"
+| Classes                            |
+| ---------------------------------- |
+| `.hub-open-sans-light`             |
+| `.hub-open-sans-light-italic`      |
+| `.hub-open-sans`                   |
+| `.hub-open-sans-italic`            |
+| `.hub-open-sans-semi-bold`         |
+| `.hub-open-sans-semi-bold-italic`  |
+| `.hub-open-sans-bold`              |
+| `.hub-open-sans-bold-italic`       |
+| `.hub-open-sans-extra-bold`        |
+| `.hub-open-sans-extra-bold-italic` |
+
+_Use in CSS :_
+
+```css
+/* Open Sans Light */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* Open Sans Light Italic */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* Open Sans Regular */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Open Sans Regular Italic */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Open Sans Semi-Bold */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Open Sans Semi-Bold Italic */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Open Sans Bold */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Open Sans Bold Italic */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Open Sans Extra-Bold */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Open Sans Extra-Bold Italic */
+... {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
 ```
 
 ---
