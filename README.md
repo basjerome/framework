@@ -101,8 +101,7 @@
 <div class="hub-clearfix">...</div>
 ```
 
-**Colors**
-
+> **Colors**
 | Breakpoints | Classes                 |
 | ----------- | ----------------------- |
 | Défaut      | `.hub-color-{value}`    |
@@ -112,7 +111,8 @@
 | ≥992px      | `.hub-color-{value}-lg` |
 | ≥1200px     | `.hub-color-{value}-xl` |
 
-> Values :
+**Values :**
+
 * black
 * blue
 * dark-grey
