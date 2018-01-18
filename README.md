@@ -32,6 +32,7 @@
 	- [Embed](#embed)
 	- [Float](#float)
 	- [Fonts](#fonts)
+	- [Font size](#font-size)
 	- [Text align](#text-align)
 	- [Text transform](#text-transform)
 	- [Vertical align](#vertical-align)
@@ -616,6 +617,21 @@ _Use in CSS :_
   font-weight: 800;
 }
 ```
+
+---
+
+## Font size
+
+| Breakpoints | Classes                |
+| ----------- | ---------------------- |
+| Défaut      | `.hub-fs-{value}`    |
+| XS          | `.hub-fs-{value}-xs` |
+| SM          | `.hub-fs-{value}-sm` |
+| MD          | `.hub-fs-{value}-md` |
+| LG          | `.hub-fs-{value}-lg` |
+| XL          | `.hub-fs-{value}-xl` |
+
+_Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
 
 ---
 
