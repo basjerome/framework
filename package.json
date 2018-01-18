@@ -10,10 +10,35 @@
     "type": "git",
     "url": "git+https://github.com/basjerome/frameworkcss.git"
   },
-  "author": "",
+  "author": "Jérôme Bas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/basjerome/frameworkcss/issues"
   },
-  "homepage": "https://github.com/basjerome/frameworkcss#readme"
+  "homepage": "https://github.com/basjerome/frameworkcss#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-strip-debug": "^2.0.0",
+    "gulp-stylelint": "^6.0.0",
+    "gulp-uglify": "^3.0.0",
+    "stylelint": "^8.4.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "keywords": [
+    "css",
+    "boulanger",
+    "scss",
+    "gulp",
+    "npm"
+  ]
 }
