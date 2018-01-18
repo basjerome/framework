@@ -116,6 +116,8 @@
 
 ## Grid
 
+> **/!\ Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !**
+
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
 | Défaut      | `.hub-col-{value}`    |
@@ -125,32 +127,12 @@
 | LG          | `.hub-col-{value}-lg` |
 | XL          | `.hub-col-{value}-xl` |
 
+_Values : {1 ~ 24}_
+
 ```html
 <div class="hub-row">
-	<div class="hub-col-1">...</div>
-	<div class="hub-col-2">...</div>
-	<div class="hub-col-3">...</div>
-	<div class="hub-col-4">...</div>
-	<div class="hub-col-5">...</div>
-	<div class="hub-col-6">...</div>
-	<div class="hub-col-7">...</div>
-	<div class="hub-col-8">...</div>
-	<div class="hub-col-9">...</div>
-	<div class="hub-col-10">...</div>
-	<div class="hub-col-11">...</div>
-	<div class="hub-col-12">...</div>
-	<div class="hub-col-13">...</div>
-	<div class="hub-col-14">...</div>
-	<div class="hub-col-15">...</div>
-	<div class="hub-col-16">...</div>
-	<div class="hub-col-17">...</div>
-	<div class="hub-col-18">...</div>
-	<div class="hub-col-19">...</div>
-	<div class="hub-col-20">...</div>
-	<div class="hub-col-21">...</div>
-	<div class="hub-col-22">...</div>
-	<div class="hub-col-23">...</div>
-	<div class="hub-col-24">...</div>
+	<div class="hub-col-12">...</div><!--
+	--><div class="hub-col-12">...</div>
 </div>
 ```
 
@@ -165,32 +147,22 @@
 | LG          | `.hub-col-offset-{value}-lg` |
 | XL          | `.hub-col-offset-{value}-xl` |
 
+_Values : {1 ~ 24}_
+
 ```html
 <div class="hub-row">
-	<div class="hub-col-offset-1">...</div>
-	<div class="hub-col-offset-2">...</div>
-	<div class="hub-col-offset-3">...</div>
-	<div class="hub-col-offset-4">...</div>
-	<div class="hub-col-offset-5">...</div>
-	<div class="hub-col-offset-6">...</div>
-	<div class="hub-col-offset-7">...</div>
-	<div class="hub-col-offset-8">...</div>
-	<div class="hub-col-offset-9">...</div>
-	<div class="hub-col-offset-10">...</div>
-	<div class="hub-col-offset-11">...</div>
-	<div class="hub-col-offset-12">...</div>
-	<div class="hub-col-offset-13">...</div>
-	<div class="hub-col-offset-14">...</div>
-	<div class="hub-col-offset-15">...</div>
-	<div class="hub-col-offset-16">...</div>
-	<div class="hub-col-offset-17">...</div>
-	<div class="hub-col-offset-18">...</div>
-	<div class="hub-col-offset-19">...</div>
-	<div class="hub-col-offset-20">...</div>
-	<div class="hub-col-offset-21">...</div>
-	<div class="hub-col-offset-22">...</div>
-	<div class="hub-col-offset-23">...</div>
-	<div class="hub-col-offset-24">...</div>
+	<div class="hub-col-8">...</div><!--
+	--><div class="hub-col-8 hub-col-offset-8">...</div>
+</div>
+```
+
+> **Vertical align**
+
+```html
+<div class="hub-row">
+	<div class="hub-col-8 hub-align-top">...</div><!--
+	--><div class="hub-col-8 hub-align-middle">...</div><!--
+	--><div class="hub-col-8 hub-align-bottom">...</div>
 </div>
 ```
 
