@@ -40,8 +40,8 @@ gulp.task('css', function () {
     .pipe(modPostcss([
       require('autoprefixer')({
         browsers: [
-          'last 20 versions',
-          '> 0%'
+          'last 2 versions',
+          '> 1% in FR'
         ],
         cascade: false
       }),
