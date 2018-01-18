@@ -302,14 +302,14 @@ class="hub-h6"
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-	  	<a href="##" title="..." itemprop="item">
+	  	<a href="#" title="..." itemprop="item">
 		  <span itemprop="name">Home</span>
 		</a>
 		<meta itemprop="position" content="1" />
 	  </li>
     <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-	  	<a href="##" title="..." itemprop="item"><span itemprop="name">Parent</span></a>
+	  	<a href="#" title="..." itemprop="item"><span itemprop="name">Parent</span></a>
 		<meta itemprop="position" content="2" />
 	  </li>
     <li itemprop="itemListElement" itemscope
@@ -326,7 +326,7 @@ class="hub-h6"
 ## Buttons
 
 ```html
-<a href="##" class="hub-btn hub-btn-orange" title="...">...</button>
+<a href="#" class="hub-btn hub-btn-orange" title="...">...</button>
 <button class="hub-btn hub-btn-orange" type="button">...</button>
 ```
 
@@ -429,9 +429,9 @@ class="hub-h6"
 ```html
 <nav class="hub-nav">
 	<ul>
-		<li><a href="##" title="...">...</a></li>
-		<li><a href="##" title="...">...</a></li>
-		<li><a href="##" title="...">...</a></li>
+		<li><a href="#" title="...">...</a></li>
+		<li><a href="#" title="...">...</a></li>
+		<li><a href="#" title="...">...</a></li>
 	</ul>
 </nav>
 ```
