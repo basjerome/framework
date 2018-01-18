@@ -33,6 +33,8 @@
 	- [Float](#float)
 	- [Fonts](#fonts)
 	- [Font size](#font-size)
+	- [Margin](#margin)
+	- [Padding](#padding)
 	- [Text align](#text-align)
 	- [Text transform](#text-transform)
 	- [Vertical align](#vertical-align)
@@ -632,6 +634,88 @@ _Use in CSS :_
 | XL          | `.hub-fs-{value}-xl` |
 
 _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
+
+---
+
+## Margin
+
+| Breakpoints | Classes              |
+| ----------- | -------------------- |
+| Défaut      | `.hub-m-{value}`     |
+|             | `.hub-mt-{value}`    |
+|             | `.hub-mr-{value}`    |
+|             | `.hub-mb-{value}`    |
+|             | `.hub-ml-{value}`    |
+| XS          | `.hub-m-{value}-xs`  |
+|             | `.hub-mt-{value}-xs` |
+|             | `.hub-mr-{value}-xs` |
+|             | `.hub-mb-{value}-xs` |
+|             | `.hub-ml-{value}-xs` |
+| SM          | `.hub-m-{value}-sm`  |
+|             | `.hub-mt-{value}-sm` |
+|             | `.hub-mr-{value}-sm` |
+|             | `.hub-mb-{value}-sm` |
+|             | `.hub-ml-{value}-sm` |
+| MD          | `.hub-m-{value}-md`  |
+|             | `.hub-mt-{value}-md` |
+|             | `.hub-mr-{value}-md` |
+|             | `.hub-mb-{value}-md` |
+|             | `.hub-ml-{value}-md` |
+| LG          | `.hub-m-{value}-lg`  |
+|             | `.hub-mt-{value}-lg` |
+|             | `.hub-mr-{value}-lg` |
+|             | `.hub-mb-{value}-lg` |
+|             | `.hub-ml-{value}-lg` |
+| XL          | `.hub-m-{value}-xl`  |
+|             | `.hub-mt-{value}-xl` |
+|             | `.hub-mr-{value}-xl` |
+|             | `.hub-mb-{value}-xl` |
+|             | `.hub-ml-{value}-xl` |
+
+_Definitions : {m = margin | mt = margin-top | mr = margin-right | mb = margin-bottom | ml = margin-left}_
+
+_Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
+
+---
+
+## Padding
+
+| Breakpoints | Classes              |
+| ----------- | -------------------- |
+| Défaut      | `.hub-p-{value}`     |
+|             | `.hub-pt-{value}`    |
+|             | `.hub-pr-{value}`    |
+|             | `.hub-pb-{value}`    |
+|             | `.hub-pl-{value}`    |
+| XS          | `.hub-p-{value}-xs`  |
+|             | `.hub-pt-{value}-xs` |
+|             | `.hub-pr-{value}-xs` |
+|             | `.hub-pb-{value}-xs` |
+|             | `.hub-pl-{value}-xs` |
+| SM          | `.hub-p-{value}-sm`  |
+|             | `.hub-pt-{value}-sm` |
+|             | `.hub-pr-{value}-sm` |
+|             | `.hub-pb-{value}-sm` |
+|             | `.hub-pl-{value}-sm` |
+| MD          | `.hub-p-{value}-md`  |
+|             | `.hub-pt-{value}-md` |
+|             | `.hub-pr-{value}-md` |
+|             | `.hub-pb-{value}-md` |
+|             | `.hub-pl-{value}-md` |
+| LG          | `.hub-p-{value}-lg`  |
+|             | `.hub-pt-{value}-lg` |
+|             | `.hub-pr-{value}-lg` |
+|             | `.hub-pb-{value}-lg` |
+|             | `.hub-pl-{value}-lg` |
+| XL          | `.hub-p-{value}-xl`  |
+|             | `.hub-pt-{value}-xl` |
+|             | `.hub-pr-{value}-xl` |
+|             | `.hub-pb-{value}-xl` |
+|             | `.hub-pl-{value}-xl` |
+
+_Definitions : {p = padding | pt = padding-top | pr = padding-right | pb = padding-bottom | pl = padding-left}_
+
+_Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
 
 ---
 
