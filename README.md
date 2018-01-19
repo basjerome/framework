@@ -169,7 +169,7 @@ _Values : {1 ~ 24}_
 </div>
 ```
 
-[Démo](https://basjerome.github.io/framework/)
+[Démo](https://basjerome.github.io/framework/grid.html)
 
 ---
 
@@ -442,9 +442,35 @@ class="hub-h6"
 
 ## Pagination
 
-```bash
-...
+```html
+<nav class="hub-pagination" aria-label="Pagination">
+	<ul>
+		<li class="hub-pagination__prev disabled">
+			&lsaquo;
+		</li>
+		<li class="active">
+			1
+		</li>
+		<li>
+			<a href="#">2</a>
+		</li>
+		<li>
+			<a href="#">3</a>
+		</li>
+		<li>
+			<a href="#">...</a>
+		</li>
+		<li>
+			<a href="#">17</a>
+		</li>
+		<li class="hub-pagination__next">
+			<a href="#">&rsaquo;</a>
+		</li>
+	</ul>
+</nav>
 ```
+
+[Démo](https://basjerome.github.io/framework/pagination.html)
 
 ---
 
