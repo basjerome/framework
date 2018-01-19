@@ -303,23 +303,22 @@ class="hub-h6"
 ```html
 <nav class="hub-breadcrumb" aria-label="breadcrumb">
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope
-      itemtype="http://schema.org/ListItem">
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 	  	<a href="#" title="..." itemprop="item">
-		  <span itemprop="name">Home</span>
-		</a>
-		<meta itemprop="position" content="1" />
+				<span itemprop="name">Home</span>
+			</a>
+			<meta itemprop="position" content="1" />
 	  </li>
-    <li itemprop="itemListElement" itemscope
-      itemtype="http://schema.org/ListItem">
-	  	<a href="#" title="..." itemprop="item"><span itemprop="name">Parent</span></a>
-		<meta itemprop="position" content="2" />
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+	  	<a href="#" title="..." itemprop="item">
+				<span itemprop="name">Parent</span>.
+			</a>
+			<meta itemprop="position" content="2" />
 	  </li>
-    <li itemprop="itemListElement" itemscope
-      itemtype="http://schema.org/ListItem" aria-current="page">
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" aria-current="page">
 	  	<span itemprop="name">Current</span>
-		<meta itemprop="position" content="3" />
-	</li>
+			<meta itemprop="position" content="3" />
+		</li>
   </ol>
 </nav>
 ```
