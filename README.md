@@ -111,6 +111,8 @@
 
 ## Container
 
+La classe `.hub-container` permet de bloquer un élément à 1000px de large maximum et de le centrer automatiquement.
+
 ```html
 <div class="hub-container">...</div>
 ```
@@ -476,6 +478,8 @@ class="hub-h6"
 
 ## Clearfix
 
+La classe `.hub-clearfix` est à mettre sur le _container_ qui englobe des éléments en _float_.
+
 ```html
 <div class="hub-clearfix">...</div>
 ```
@@ -664,38 +668,38 @@ _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 
 
 | Breakpoints | Classes              |
 | ----------- | -------------------- |
-| Défaut      | `.hub-m-{value}`     |
+| Défaut      | `.hub-mg-{value}`    |
 |             | `.hub-mt-{value}`    |
 |             | `.hub-mr-{value}`    |
 |             | `.hub-mb-{value}`    |
 |             | `.hub-ml-{value}`    |
-| XS          | `.hub-m-{value}-xs`  |
+| XS          | `.hub-mg-{value}-xs` |
 |             | `.hub-mt-{value}-xs` |
 |             | `.hub-mr-{value}-xs` |
 |             | `.hub-mb-{value}-xs` |
 |             | `.hub-ml-{value}-xs` |
-| SM          | `.hub-m-{value}-sm`  |
+| SM          | `.hub-mg-{value}-sm` |
 |             | `.hub-mt-{value}-sm` |
 |             | `.hub-mr-{value}-sm` |
 |             | `.hub-mb-{value}-sm` |
 |             | `.hub-ml-{value}-sm` |
-| MD          | `.hub-m-{value}-md`  |
+| MD          | `.hub-mg-{value}-md` |
 |             | `.hub-mt-{value}-md` |
 |             | `.hub-mr-{value}-md` |
 |             | `.hub-mb-{value}-md` |
 |             | `.hub-ml-{value}-md` |
-| LG          | `.hub-m-{value}-lg`  |
+| LG          | `.hub-mg-{value}-lg` |
 |             | `.hub-mt-{value}-lg` |
 |             | `.hub-mr-{value}-lg` |
 |             | `.hub-mb-{value}-lg` |
 |             | `.hub-ml-{value}-lg` |
-| XL          | `.hub-m-{value}-xl`  |
+| XL          | `.hub-mg-{value}-xl` |
 |             | `.hub-mt-{value}-xl` |
 |             | `.hub-mr-{value}-xl` |
 |             | `.hub-mb-{value}-xl` |
 |             | `.hub-ml-{value}-xl` |
 
-_Definitions : {m = margin | mt = margin-top | mr = margin-right | mb = margin-bottom | ml = margin-left}_
+_Definitions : {mg = margin | mt = margin-top | mr = margin-right | mb = margin-bottom | ml = margin-left}_
 
 _Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
 
@@ -705,38 +709,38 @@ _Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 7
 
 | Breakpoints | Classes              |
 | ----------- | -------------------- |
-| Défaut      | `.hub-p-{value}`     |
+| Défaut      | `.hub-pd-{value}`    |
 |             | `.hub-pt-{value}`    |
 |             | `.hub-pr-{value}`    |
 |             | `.hub-pb-{value}`    |
 |             | `.hub-pl-{value}`    |
-| XS          | `.hub-p-{value}-xs`  |
+| XS          | `.hub-pd-{value}-xs` |
 |             | `.hub-pt-{value}-xs` |
 |             | `.hub-pr-{value}-xs` |
 |             | `.hub-pb-{value}-xs` |
 |             | `.hub-pl-{value}-xs` |
-| SM          | `.hub-p-{value}-sm`  |
+| SM          | `.hub-pd-{value}-sm` |
 |             | `.hub-pt-{value}-sm` |
 |             | `.hub-pr-{value}-sm` |
 |             | `.hub-pb-{value}-sm` |
 |             | `.hub-pl-{value}-sm` |
-| MD          | `.hub-p-{value}-md`  |
+| MD          | `.hub-pd-{value}-md` |
 |             | `.hub-pt-{value}-md` |
 |             | `.hub-pr-{value}-md` |
 |             | `.hub-pb-{value}-md` |
 |             | `.hub-pl-{value}-md` |
-| LG          | `.hub-p-{value}-lg`  |
+| LG          | `.hub-pd-{value}-lg` |
 |             | `.hub-pt-{value}-lg` |
 |             | `.hub-pr-{value}-lg` |
 |             | `.hub-pb-{value}-lg` |
 |             | `.hub-pl-{value}-lg` |
-| XL          | `.hub-p-{value}-xl`  |
+| XL          | `.hub-pd-{value}-xl` |
 |             | `.hub-pt-{value}-xl` |
 |             | `.hub-pr-{value}-xl` |
 |             | `.hub-pb-{value}-xl` |
 |             | `.hub-pl-{value}-xl` |
 
-_Definitions : {p = padding | pt = padding-top | pr = padding-right | pb = padding-bottom | pl = padding-left}_
+_Definitions : {pd = padding | pt = padding-top | pr = padding-right | pb = padding-bottom | pl = padding-left}_
 
 _Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
 

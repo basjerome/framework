@@ -1,40 +1,40 @@
 // Padding
 @for $i from 0 through 20 {
-	.hub-p-#{$i * 5} {
+	.hub-pd-#{$i * 5} {
 		padding: 1px * ($i * 5);
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($xs) {
-		.hub-p-#{$i * 5}-xs {
+		.hub-pd-#{$i * 5}-xs {
 			padding: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($sm) {
-		.hub-p-#{$i * 5}-sm {
+		.hub-pd-#{$i * 5}-sm {
 			padding: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($md) {
-		.hub-p-#{$i * 5}-md {
+		.hub-pd-#{$i * 5}-md {
 			padding: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
-		.hub-p-#{$i * 5}-lg {
+		.hub-pd-#{$i * 5}-lg {
 			padding: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($xl) {
-		.hub-p-#{$i * 5}-xl {
+		.hub-pd-#{$i * 5}-xl {
 			padding: 1px * ($i * 5) !important;
 		}
 	}

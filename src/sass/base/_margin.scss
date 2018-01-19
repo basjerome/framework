@@ -1,40 +1,40 @@
 // Margin
 @for $i from 0 through 20 {
-	.hub-m-#{$i * 5} {
+	.hub-mg-#{$i * 5} {
 		margin: 1px * ($i * 5);
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($xs) {
-		.hub-m-#{$i * 5}-xs {
+		.hub-mg-#{$i * 5}-xs {
 			margin: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($sm) {
-		.hub-m-#{$i * 5}-sm {
+		.hub-mg-#{$i * 5}-sm {
 			margin: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($md) {
-		.hub-m-#{$i * 5}-md {
+		.hub-mg-#{$i * 5}-md {
 			margin: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
-		.hub-m-#{$i * 5}-lg {
+		.hub-mg-#{$i * 5}-lg {
 			margin: 1px * ($i * 5) !important;
 		}
 	}
 }
 @for $i from 0 through 20 {
 	@include breakpoints($xl) {
-		.hub-m-#{$i * 5}-xl {
+		.hub-mg-#{$i * 5}-xl {
 			margin: 1px * ($i * 5) !important;
 		}
 	}
