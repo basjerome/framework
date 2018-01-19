@@ -445,9 +445,7 @@ class="hub-h6"
 ```html
 <nav class="hub-pagination" aria-label="Pagination">
 	<ul>
-		<li class="hub-pagination__prev disabled">
-			&lsaquo;
-		</li>
+		<li class="hub-pagination__prev disabled"></li>
 		<li class="active">
 			1
 		</li>
@@ -464,7 +462,7 @@ class="hub-h6"
 			<a href="#">17</a>
 		</li>
 		<li class="hub-pagination__next">
-			<a href="#">&rsaquo;</a>
+			<a href="#"></a>
 		</li>
 	</ul>
 </nav>

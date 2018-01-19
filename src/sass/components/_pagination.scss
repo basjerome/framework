@@ -55,4 +55,18 @@
 			width: 28px !important;
 		}
 	}
+	&__prev {
+		&::before {
+			content: "‹";
+		}
+	}
+	&__next {
+		a,
+		a:focus,
+		a:hover {
+			&::before {
+				content: "›";
+			}
+		}
+	}
 }
