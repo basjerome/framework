@@ -478,7 +478,7 @@ class="hub-h6"
 
 ## Clearfix
 
-La classe `.hub-clearfix` est à mettre sur le _container_ qui englobe des éléments en _float_.
+La classe `.hub-clearfix` permet de contenir des éléments en _float_.
 
 ```html
 <div class="hub-clearfix">...</div>
