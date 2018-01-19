@@ -29,14 +29,6 @@ body {
 	font-size: 16px;
 }
 
-// Paragraph
-.hub-p {
-	color: $dark-grey;
-	font-size: 14px;
-	line-height: 1.2;
-	margin-bottom: 15px;
-}
-
 // Clearfix
 .hub-clearfix {
 	&::before,
@@ -77,4 +69,18 @@ body {
 		top: 0;
 		width: 100%;
 	}
+}
+
+// Image
+.hub-img {
+	height: auto;
+	max-width: 100%;
+}
+
+// Paragraph
+.hub-p {
+	color: $dark-grey;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 15px;
 }
