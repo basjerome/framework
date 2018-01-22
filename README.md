@@ -335,6 +335,8 @@ class="hub-h6"
 <button class="hub-btn hub-btn-orange" type="button">...</button>
 ```
 
+[Demo](https://basjerome.github.io/framework/buttons.html)
+
 ---
 
 ## Carousel
@@ -500,6 +502,8 @@ La classe `.hub-clearfix` permet de contenir des éléments en _float_.
 
 _Values : {black | blue | dark-grey | orange | white}_
 
+[Demo](https://basjerome.github.io/framework/colors.html)
+
 ---
 
 ## Colors
@@ -514,6 +518,8 @@ _Values : {black | blue | dark-grey | orange | white}_
 | MD          | `.hub-color-{value}-md` |
 | LG          | `.hub-color-{value}-lg` |
 | XL          | `.hub-color-{value}-xl` |
+
+[Demo](https://basjerome.github.io/framework/colors.html)
 
 ---
 
