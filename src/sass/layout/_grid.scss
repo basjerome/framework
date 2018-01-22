@@ -31,35 +31,35 @@
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
-		.hub-col-#{$i} {
+		.hub-col-#{$i}-xs {
 			width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($sm) {
-		.hub-col-#{$i} {
+		.hub-col-#{$i}-sm {
 			width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($md) {
-		.hub-col-#{$i} {
+		.hub-col-#{$i}-md {
 			width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($lg) {
-		.hub-col-#{$i} {
+		.hub-col-#{$i}-lg {
 			width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xl) {
-		.hub-col-#{$i} {
+		.hub-col-#{$i}-xl {
 			width: ($i * 100%) / $cols  !important;
 		}
 	}
@@ -74,35 +74,35 @@
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
-		.hub-col-offset-#{$i} {
+		.hub-col-offset-#{$i}-xl {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($sm) {
-		.hub-col-offset-#{$i} {
+		.hub-col-offset-#{$i}-sm {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($md) {
-		.hub-col-offset-#{$i} {
+		.hub-col-offset-#{$i}-md {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($lg) {
-		.hub-col-offset-#{$i} {
+		.hub-col-offset-#{$i}-lg {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xl) {
-		.hub-col-offset-#{$i} {
+		.hub-col-offset-#{$i}-xl {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
