@@ -37,20 +37,19 @@ gulp.task('css', function () {
         console: true
       }]
     }))
-    .pipe(modPostcss([
-      require('autoprefixer')({
-        browsers: [
-          'last 2 versions',
-          '> 1% in FR'
-        ],
-        cascade: false
-      }),
-      require('cssnano')
-    ]))
     .pipe(modSass({
       outputStyle: 'compressed',
       errLogToConsole: true
     }).on('error', modSass.logError))
+    .pipe(modPostcss([
+      require('autoprefixer')({
+        browsers: [
+          'last 15 versions',
+          '> 1% in FR'
+        ]
+      }),
+      require('cssnano')
+    ]))
     .pipe(modRename({
       suffix: '.min'
     }))

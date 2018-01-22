@@ -12,10 +12,7 @@
 
 // Border radius
 @mixin border-radius($radius) {
-	-webkit-border-radius: $radius;
-	   -moz-border-radius: $radius;
-	    -ms-border-radius: $radius;
-	        border-radius: $radius;
+	border-radius: $radius;
 }
 
 // Breakpoints
@@ -27,10 +24,7 @@
 
 // Box shadow
 @mixin box-shadow($x, $y, $blur, $spread, $color) {
-	-webkit-box-shadow: $x $y $blur $spread $color;
-	   -moz-box-shadow: $x $y $blur $spread $color;
-	    -ms-box-shadow: $x $y $blur $spread $color;
-	        box-shadow: $x $y $blur $spread $color;
+	box-shadow: $x $y $blur $spread $color;
 }
 
 // Opacity
@@ -41,13 +35,10 @@
 
 // Translate
 @mixin translate($y, $x) {
-	-webkit-transform: translate($y,$x);
-	    -ms-transform: translate($y,$x);
-	        transform: translate($y,$x);
+	transform: translate($y,$x);
 }
 
 // Transition
 @mixin transition($property, $timing, $delay) {
-	-webkit-transition: $property $timing $delay;
-	        transition: $property $timing $delay;
+	transition: $property $timing $delay;
 }
