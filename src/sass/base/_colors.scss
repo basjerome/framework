@@ -1,6 +1,6 @@
 // Colors
 .hub-color-black {
-	color: $black;
+	color: $black !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $black !important;
@@ -29,7 +29,7 @@
 }
 
 .hub-color-blue {
-	color: $blue;
+	color: $blue !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $blue !important;
@@ -58,7 +58,7 @@
 }
 
 .hub-color-dark-grey {
-	color: $dark-grey;
+	color: $dark-grey !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $dark-grey !important;
@@ -87,7 +87,7 @@
 }
 
 .hub-color-light-blue {
-	color: $light-blue;
+	color: $light-blue !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $light-blue !important;
@@ -116,7 +116,7 @@
 }
 
 .hub-color-light-grey {
-	color: $light-grey;
+	color: $light-grey !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $light-grey !important;
@@ -145,7 +145,7 @@
 }
 
 .hub-color-orange {
-	color: $orange;
+	color: $orange !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $orange !important;
@@ -174,7 +174,7 @@
 }
 
 .hub-color-white {
-	color: $white;
+	color: $white !important;
 	@include breakpoints($xs) {
 		&-xs {
 			color: $white !important;

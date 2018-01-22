@@ -1,87 +1,87 @@
 // Display
 .hub-float-left {
-  float: left;
-  @include breakpoints($xs) {
-    &-xs {
-      float: left !important;
-    }
-  }
-  @include breakpoints($sm) {
-    &-sm {
-      float: left !important;
-    }
-  }
-  @include breakpoints($md) {
-    &-md {
-      float: left !important;
-    }
-  }
-  @include breakpoints($lg) {
-    &-lg {
-      float: left !important;
-    }
-  }
-  @include breakpoints($xl) {
-    &-xl {
-      float: left !important;
-    }
-  }
+	float: left !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: left !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: left !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: left !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: left !important;
+		}
+	}
+	@include breakpoints($xl) {
+		&-xl {
+			float: left !important;
+		}
+	}
 }
 
 .hub-float-right {
-  float: right;
-  @include breakpoints($xs) {
-    &-xs {
-      float: right !important;
-    }
-  }
-  @include breakpoints($sm) {
-    &-sm {
-      float: right !important;
-    }
-  }
-  @include breakpoints($md) {
-    &-md {
-      float: right !important;
-    }
-  }
-  @include breakpoints($lg) {
-    &-lg {
-      float: right !important;
-    }
-  }
-  @include breakpoints($xl) {
-    &-xl {
-      float: right !important;
-    }
-  }
+	float: right !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: right !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: right !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: right !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: right !important;
+		}
+	}
+	@include breakpoints($xl) {
+		&-xl {
+			float: right !important;
+		}
+	}
 }
 
 .hub-float-none {
-  float: none;
-  @include breakpoints($xs) {
-    &-xs {
-      float: none !important;
-    }
-  }
-  @include breakpoints($sm) {
-    &-sm {
-      float: none !important;
-    }
-  }
-  @include breakpoints($md) {
-    &-md {
-      float: none !important;
-    }
-  }
-  @include breakpoints($lg) {
-    &-lg {
-      float: none !important;
-    }
-  }
-  @include breakpoints($xl) {
-    &-xl {
-      float: none !important;
-    }
-  }
+	float: none !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: none !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: none !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: none !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: none !important;
+		}
+	}
+	@include breakpoints($xl) {
+		&-xl {
+			float: none !important;
+		}
+	}
 }

@@ -1,6 +1,6 @@
 // Backgrounds colors
 .hub-bg-color-black {
-	background-color: $black;
+	background-color: $black !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $black !important;
@@ -29,7 +29,7 @@
 }
 
 .hub-bg-color-blue {
-	background-color: $blue;
+	background-color: $blue !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $blue !important;
@@ -58,7 +58,7 @@
 }
 
 .hub-bg-color-dark-grey {
-	background-color: $dark-grey;
+	background-color: $dark-grey !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $dark-grey !important;
@@ -87,7 +87,7 @@
 }
 
 .hub-bg-color-light-blue {
-	background-color: $light-blue;
+	background-color: $light-blue !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $light-blue !important;
@@ -116,7 +116,7 @@
 }
 
 .hub-bg-color-light-grey {
-	background-color: $light-grey;
+	background-color: $light-grey !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $light-grey !important;
@@ -145,7 +145,7 @@
 }
 
 .hub-bg-color-orange {
-	background-color: $orange;
+	background-color: $orange !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $orange !important;
@@ -174,7 +174,7 @@
 }
 
 .hub-bg-color-white {
-	background-color: $white;
+	background-color: $white !important;
 	@include breakpoints($xs) {
 		&-xs {
 			background-color: $white !important;
