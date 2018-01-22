@@ -171,7 +171,7 @@ _Values : {1 ~ 24}_
 </div>
 ```
 
-[Démo](https://basjerome.github.io/framework/grid.html)
+[Demo](https://basjerome.github.io/framework/grid.html)
 
 ---
 
@@ -196,7 +196,7 @@ class="hub-h5"
 class="hub-h6"
 ```
 
-[Démo](https://basjerome.github.io/framework/)
+[Demo](https://basjerome.github.io/framework/heading.html)
 
 ---
 
@@ -206,7 +206,7 @@ class="hub-h6"
 <p class="hub-p">...</p>
 ```
 
-[Démo](https://basjerome.github.io/framework/)
+[Demo](https://basjerome.github.io/framework/paragraph.html)
 
 ---
 
@@ -253,7 +253,7 @@ class="hub-h6"
 </dl>
 ```
 
-[Démo](https://basjerome.github.io/framework/list.html)
+[Demo](https://basjerome.github.io/framework/list.html)
 
 ---
 
@@ -286,7 +286,7 @@ class="hub-h6"
 </table>
 ```
 
-[Démo](https://basjerome.github.io/framework/)
+[Demo](https://basjerome.github.io/framework/table.html)
 
 ---
 
@@ -470,7 +470,7 @@ class="hub-h6"
 </nav>
 ```
 
-[Démo](https://basjerome.github.io/framework/pagination.html)
+[Demo](https://basjerome.github.io/framework/pagination.html)
 
 ---
 
