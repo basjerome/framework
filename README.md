@@ -33,6 +33,7 @@
 	- [Float](#float)
 	- [Fonts](#fonts)
 	- [Font size](#font-size)
+	- [Icons](#icons)
 	- [Margin](#margin)
 	- [Padding](#padding)
 	- [Text align](#text-align)
@@ -661,6 +662,14 @@ _Use in CSS :_
 | XL          | `.hub-fs-{value}-xl` |
 
 _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
+
+---
+
+## Icons
+
+`.hub-icon-{value}`
+
+[Demo](https://basjerome.github.io/framework/icons.html)
 
 ---
 
