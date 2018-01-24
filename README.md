@@ -296,7 +296,7 @@ class="hub-h6"
 
 ## AddThis
 
-```js
+```javascript
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a6bcdfe07cd736"></script>
 ```
 
