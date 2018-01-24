@@ -15,6 +15,7 @@
 	- [Images](#images)
 	- [Tables](#tables)
 - [Components](#components)
+	- [AddThis](#addthis)
 	- [Alerts](#alerts)
 	- [Breadcrumb](#breadcrumb)
 	- [Buttons](#buttons)
@@ -293,11 +294,21 @@ class="hub-h6"
 
 # Components
 
+## AddThis
+
+```js
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a6bcdfe07cd736"></script>
+```
+
+---
+
 ## Alerts
 
 ```bash
 ...
 ```
+
+[Demo](https://basjerome.github.io/framework/addthis.html)
 
 ---
 
