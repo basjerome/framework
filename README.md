@@ -120,9 +120,7 @@ La classe `.hub-container` permet de bloquer un élément à 1000px de large max
 
 ## Grid
 
-<aside class="notice">
-Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !
-</aside>
+> **/!\ Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !**
 
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
@@ -180,9 +178,6 @@ _Values : {1 ~ 24}_
 
 ```bash
 @include border-radius($radius);
-
-// Exemple
-@include border-radius(50%);
 ```
 
 > **Breakpoints**
@@ -204,36 +199,24 @@ _$media : {xs | sm | md | lg}_
 
 ```bash
 @include box-shadow($x, $y, $blur, $spread, $color);
-
-// Exemple
-@include box-shadow(10px, 10px, 5px, 0, rgba($black, .5));
 ```
 
 > **Opacity**
 
 ```bash
 @include opacity($opacity, $alpha);
-
-// Exemple
-@include opacity(.5, 50);
 ```
 
 > **Translate**
 
 ```bash
 @include translate($y, $x);
-
-// Exemple
-@include translate(-50%, -50%);
 ```
 
 > **Transition**
 
 ```bash
 @include transition($property, $timing, $delay);
-
-// Exemple
-@include transition(all, ease, .3s);
 ```
 
 ---
