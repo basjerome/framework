@@ -21,11 +21,6 @@
 			text-transform: lowercase !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			text-transform: lowercase !important;
-		}
-	}
 }
 
 .hub-text-uppercase {
@@ -50,11 +45,6 @@
 			text-transform: uppercase !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			text-transform: uppercase !important;
-		}
-	}
 }
 
 .hub-text-capitalize {
@@ -76,11 +66,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			text-transform: capitalize !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			text-transform: capitalize !important;
 		}
 	}

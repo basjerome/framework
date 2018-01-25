@@ -21,11 +21,6 @@
 			text-align: left !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			text-align: left !important;
-		}
-	}
 }
 
 .hub-text-center {
@@ -47,11 +42,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			text-align: center !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			text-align: center !important;
 		}
 	}
@@ -79,11 +69,6 @@
 			text-align: right !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			text-align: right !important;
-		}
-	}
 }
 
 .hub-text-justify {
@@ -108,11 +93,6 @@
 			text-align: justify !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			text-align: justify !important;
-		}
-	}
 }
 
 .hub-text-nowrap {
@@ -134,11 +114,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			white-space: nowrap !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			white-space: nowrap !important;
 		}
 	}

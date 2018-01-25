@@ -32,13 +32,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-pd-#{$i * 5}-xl {
-			padding: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Padding top
 @for $i from 0 through 20 {
@@ -70,13 +63,6 @@
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
 		.hub-pt-#{$i * 5}-lg {
-			padding-top: 1px * ($i * 5) !important;
-		}
-	}
-}
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-pt-#{$i * 5}-xl {
 			padding-top: 1px * ($i * 5) !important;
 		}
 	}
@@ -116,13 +102,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-pr-#{$i * 5}-xl {
-			padding-right: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Padding bottom
 @for $i from 0 through 20 {
@@ -158,13 +137,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-pb-#{$i * 5}-xl {
-			padding-bottom: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Padding left
 @for $i from 0 through 20 {
@@ -196,13 +168,6 @@
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
 		.hub-pl-#{$i * 5}-lg {
-			padding-left: 1px * ($i * 5) !important;
-		}
-	}
-}
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-pl-#{$i * 5}-xl {
 			padding-left: 1px * ($i * 5) !important;
 		}
 	}

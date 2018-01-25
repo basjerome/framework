@@ -103,10 +103,7 @@
 @media (min-width: 768px) and (max-width: 991.99px) { ... }
 
 // LG (desktops)
-@media (min-width: 992px) and (max-width: 1199.99px) { ... }
-
-// XL (large desktops)
-@media (min-width: 1200px) { ... }
+@media (min-width: 992px) { ... }
 ```
 
 ---
@@ -134,7 +131,6 @@ Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter de
 | SM          | `.hub-col-{value}-sm` |
 | MD          | `.hub-col-{value}-md` |
 | LG          | `.hub-col-{value}-lg` |
-| XL          | `.hub-col-{value}-xl` |
 
 _Values : {1 ~ 24}_
 
@@ -154,7 +150,6 @@ _Values : {1 ~ 24}_
 | SM          | `.hub-col-offset-{value}-sm` |
 | MD          | `.hub-col-offset-{value}-md` |
 | LG          | `.hub-col-offset-{value}-lg` |
-| XL          | `.hub-col-offset-{value}-xl` |
 
 _Values : {1 ~ 24}_
 
@@ -203,7 +198,7 @@ _Values : {1 ~ 24}_
 }
 ```
 
-_$media : {xs | sm | md | lg | xl}_
+_$media : {xs | sm | md | lg}_
 
 > **Box shadow**
 
@@ -568,7 +563,6 @@ La classe `.hub-clearfix` permet de contenir des éléments en _float_.
 | SM          | `.hub-bg-color-{value}-sm` |
 | MD          | `.hub-bg-color-{value}-md` |
 | LG          | `.hub-bg-color-{value}-lg` |
-| XL          | `.hub-bg-color-{value}-xl` |
 
 _Values : {black | blue | dark-grey | orange | white}_
 
@@ -587,7 +581,6 @@ _Values : {black | blue | dark-grey | orange | white}_
 | SM          | `.hub-color-{value}-sm` |
 | MD          | `.hub-color-{value}-md` |
 | LG          | `.hub-color-{value}-lg` |
-| XL          | `.hub-color-{value}-xl` |
 
 [Demo](https://basjerome.github.io/framework/colors.html)
 
@@ -602,7 +595,6 @@ _Values : {black | blue | dark-grey | orange | white}_
 | SM          | `.hub-{value}-sm` |
 | MD          | `.hub-{value}-md` |
 | LG          | `.hub-{value}-lg` |
-| XL          | `.hub-{value}-xl` |
 
 _Values : {block | flex | inline-flex | inline | inline-block | none | table | table-cell}_
 
@@ -629,7 +621,6 @@ _Format 16/9_
 | SM          | `.hub-float-{value}-sm` |
 | MD          | `.hub-float-{value}-md` |
 | LG          | `.hub-float-{value}-lg` |
-| XL          | `.hub-float-{value}-xl` |
 
 _Values : {left | righ | none}_
 
@@ -661,7 +652,6 @@ _Values : {left | righ | none}_
 | SM          | `.hub-fs-{value}-sm` |
 | MD          | `.hub-fs-{value}-md` |
 | LG          | `.hub-fs-{value}-lg` |
-| XL          | `.hub-fs-{value}-xl` |
 
 _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100}_
 
@@ -704,11 +694,6 @@ _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 
 |             | `.hub-mr-{value}-lg` |
 |             | `.hub-mb-{value}-lg` |
 |             | `.hub-ml-{value}-lg` |
-| XL          | `.hub-mg-{value}-xl` |
-|             | `.hub-mt-{value}-xl` |
-|             | `.hub-mr-{value}-xl` |
-|             | `.hub-mb-{value}-xl` |
-|             | `.hub-ml-{value}-xl` |
 
 _Definitions : {mg = margin | mt = margin-top | mr = margin-right | mb = margin-bottom | ml = margin-left}_
 
@@ -745,11 +730,6 @@ _Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 7
 |             | `.hub-pr-{value}-lg` |
 |             | `.hub-pb-{value}-lg` |
 |             | `.hub-pl-{value}-lg` |
-| XL          | `.hub-pd-{value}-xl` |
-|             | `.hub-pt-{value}-xl` |
-|             | `.hub-pr-{value}-xl` |
-|             | `.hub-pb-{value}-xl` |
-|             | `.hub-pl-{value}-xl` |
 
 _Definitions : {pd = padding | pt = padding-top | pr = padding-right | pb = padding-bottom | pl = padding-left}_
 
@@ -766,7 +746,6 @@ _Values : {0 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 7
 | SM          | `.hub-text-{value}-sm` |
 | MD          | `.hub-text-{value}-md` |
 | LG          | `.hub-text-{value}-lg` |
-| XL          | `.hub-text-{value}-xl` |
 
 _Values : {left | center | right | justify | nowrap}_
 
@@ -781,7 +760,6 @@ _Values : {left | center | right | justify | nowrap}_
 | SM          | `.hub-text-{value}-sm` |
 | MD          | `.hub-text-{value}-md` |
 | LG          | `.hub-text-{value}-lg` |
-| XL          | `.hub-text-{value}-xl` |
 
 _Values : {lowercase | uppercase | capitalize}_
 
@@ -796,6 +774,5 @@ _Values : {lowercase | uppercase | capitalize}_
 | SM          | `.hub-align-{value}-sm` |
 | MD          | `.hub-align-{value}-md` |
 | LG          | `.hub-align-{value}-lg` |
-| XL          | `.hub-align-{value}-xl` |
 
 _Values : {baseline | top | middle | bottom | text-top | text-bottom}_

@@ -21,11 +21,6 @@
 			display: block !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			display: block !important;
-		}
-	}
 }
 
 .hub-flex {
@@ -47,11 +42,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			display: flex !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			display: flex !important;
 		}
 	}
@@ -79,11 +69,6 @@
 			display: inline !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			display: inline !important;
-		}
-	}
 }
 
 .hub-inline-block {
@@ -105,11 +90,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			display: inline-block !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			display: inline-block !important;
 		}
 	}
@@ -137,11 +117,6 @@
 			display: none !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			display: none !important;
-		}
-	}
 }
 
 .hub-table {
@@ -166,11 +141,6 @@
 			display: table !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			display: table !important;
-		}
-	}
 }
 
 .hub-table-cell {
@@ -192,11 +162,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			display: table-cell !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			display: table-cell !important;
 		}
 	}

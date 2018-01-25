@@ -21,11 +21,6 @@
 			color: $black !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			color: $black !important;
-		}
-	}
 }
 
 .hub-color-blue {
@@ -47,11 +42,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			color: $blue !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			color: $blue !important;
 		}
 	}
@@ -79,11 +69,6 @@
 			color: $dark-grey !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			color: $dark-grey !important;
-		}
-	}
 }
 
 .hub-color-light-blue {
@@ -105,11 +90,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			color: $light-blue !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			color: $light-blue !important;
 		}
 	}
@@ -137,11 +117,6 @@
 			color: $light-grey !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			color: $light-grey !important;
-		}
-	}
 }
 
 .hub-color-orange {
@@ -166,11 +141,6 @@
 			color: $orange !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			color: $orange !important;
-		}
-	}
 }
 
 .hub-color-white {
@@ -192,11 +162,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			color: $white !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			color: $white !important;
 		}
 	}

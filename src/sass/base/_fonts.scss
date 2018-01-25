@@ -260,13 +260,6 @@
 		}
 	}
 }
-@include breakpoints($xl) {
-	@for $i from 8 through 30 {
-		.hub-fs-#{$i}-xl {
-			font-size: 1px * $i !important;
-		}
-	}
-}
 
 // 35 ~ 100
 @for $i from 7 through 20 {
@@ -298,13 +291,6 @@
 @include breakpoints($lg) {
 	@for $i from 8 through 30 {
 		.hub-fs-#{$i}-lg {
-			font-size: 1px * ($i * 5) !important;
-		}
-	}
-}
-@include breakpoints($xl) {
-	@for $i from 8 through 30 {
-		.hub-fs-#{$i}-xl {
 			font-size: 1px * ($i * 5) !important;
 		}
 	}

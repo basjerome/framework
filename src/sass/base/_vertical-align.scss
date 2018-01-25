@@ -21,11 +21,6 @@
 			vertical-align: baseline !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			vertical-align: baseline !important;
-		}
-	}
 }
 
 .hub-align-top {
@@ -47,11 +42,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			vertical-align: top !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			vertical-align: top !important;
 		}
 	}
@@ -79,11 +69,6 @@
 			vertical-align: middle !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			vertical-align: middle !important;
-		}
-	}
 }
 
 .hub-align-bottom {
@@ -105,11 +90,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			vertical-align: bottom !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			vertical-align: bottom !important;
 		}
 	}
@@ -137,11 +117,6 @@
 			vertical-align: text-top !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			vertical-align: text-top !important;
-		}
-	}
 }
 
 .hub-align-text-bottom {
@@ -163,11 +138,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			vertical-align: text-bottom !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			vertical-align: text-bottom !important;
 		}
 	}

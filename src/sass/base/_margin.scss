@@ -32,13 +32,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-mg-#{$i * 5}-xl {
-			margin: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Margin top
 @for $i from 0 through 20 {
@@ -70,13 +63,6 @@
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
 		.hub-mt-#{$i * 5}-lg {
-			margin-top: 1px * ($i * 5) !important;
-		}
-	}
-}
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-mt-#{$i * 5}-xl {
 			margin-top: 1px * ($i * 5) !important;
 		}
 	}
@@ -116,13 +102,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-mr-#{$i * 5}-xl {
-			margin-right: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Margin bottom
 @for $i from 0 through 20 {
@@ -158,13 +137,6 @@
 		}
 	}
 }
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-mb-#{$i * 5}-xl {
-			margin-bottom: 1px * ($i * 5) !important;
-		}
-	}
-}
 
 // Margin left
 @for $i from 0 through 20 {
@@ -196,13 +168,6 @@
 @for $i from 0 through 20 {
 	@include breakpoints($lg) {
 		.hub-ml-#{$i * 5}-lg {
-			margin-left: 1px * ($i * 5) !important;
-		}
-	}
-}
-@for $i from 0 through 20 {
-	@include breakpoints($xl) {
-		.hub-ml-#{$i * 5}-xl {
 			margin-left: 1px * ($i * 5) !important;
 		}
 	}

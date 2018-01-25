@@ -21,11 +21,6 @@
 			float: left !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			float: left !important;
-		}
-	}
 }
 
 .hub-float-right {
@@ -50,11 +45,6 @@
 			float: right !important;
 		}
 	}
-	@include breakpoints($xl) {
-		&-xl {
-			float: right !important;
-		}
-	}
 }
 
 .hub-float-none {
@@ -76,11 +66,6 @@
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			float: none !important;
-		}
-	}
-	@include breakpoints($xl) {
-		&-xl {
 			float: none !important;
 		}
 	}

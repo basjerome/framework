@@ -57,13 +57,6 @@
 		}
 	}
 }
-@for $i from 1 through $cols {
-	@include breakpoints($xl) {
-		.hub-col-#{$i}-xl {
-			width: ($i * 100%) / $cols  !important;
-		}
-	}
-}
 
 // Offset
 
@@ -74,7 +67,7 @@
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
-		.hub-col-offset-#{$i}-xl {
+		.hub-col-offset-#{$i}-xs {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
@@ -96,13 +89,6 @@
 @for $i from 1 through $cols {
 	@include breakpoints($lg) {
 		.hub-col-offset-#{$i}-lg {
-			margin-left: ($i * 100%) / $cols  !important;
-		}
-	}
-}
-@for $i from 1 through $cols {
-	@include breakpoints($xl) {
-		.hub-col-offset-#{$i}-xl {
 			margin-left: ($i * 100%) / $cols  !important;
 		}
 	}
