@@ -179,8 +179,36 @@ _Values : {1 ~ 24}_
 
 ## Mixins
 
-```bash
-...
+```css
+// Breakpoints
+@include border-radius($radius) {
+	...
+}
+
+// Breakpoints
+@include breakpoints($media) {
+	...
+}
+
+// Box shadow
+@include box-shadow($x, $y, $blur, $spread, $color) {
+	...
+}
+
+// Opacity
+@include opacity($opacity, $alpha) {
+	...
+}
+
+// Translate
+@include translate($y, $x) {
+	...
+}
+
+// Transition
+@include transition($property, $timing, $delay) {
+	...
+}
 ```
 
 ---
