@@ -31,12 +31,6 @@ gulp.task('css', function () {
   return gulp.src($src)
     .pipe(modSourcemaps.init())
     .pipe(modPlumber())
-    .pipe(modStylelint({
-      reporters: [{
-        formatter: 'string',
-        console: true
-      }]
-    }))
     .pipe(modSass({
       outputStyle: 'compressed',
       errLogToConsole: true
