@@ -123,7 +123,9 @@ La classe `.hub-container` permet de bloquer un élément à 1000px de large max
 
 ## Grid
 
-> **/!\ Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !**
+<aside class="notice">
+Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !
+</aside>
 
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
