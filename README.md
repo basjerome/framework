@@ -179,36 +179,42 @@ _Values : {1 ~ 24}_
 
 ## Mixins
 
-```css
-// Breakpoints
-@include border-radius($radius) {
-	...
-}
+> **Border radius**
 
-// Breakpoints
+```css
+@include border-radius($radius);
+```
+
+> **Breakpoints**
+
+```css
 @include breakpoints($media) {
 	...
 }
+```
 
-// Box shadow
-@include box-shadow($x, $y, $blur, $spread, $color) {
-	...
-}
+> **Box shadow**
 
-// Opacity
-@include opacity($opacity, $alpha) {
-	...
-}
+```css
+@include box-shadow($x, $y, $blur, $spread, $color);
+```
 
-// Translate
-@include translate($y, $x) {
-	...
-}
+> **Opacity**
 
-// Transition
-@include transition($property, $timing, $delay) {
-	...
-}
+```css
+@include opacity($opacity, $alpha);
+```
+
+> **Translate**
+
+```css
+@include translate($y, $x);
+```
+
+> **Transition**
+
+```css
+@include transition($property, $timing, $delay);
 ```
 
 ---
