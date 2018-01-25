@@ -181,39 +181,46 @@ _Values : {1 ~ 24}_
 
 > **Border radius**
 
-```css
+```bash
 @include border-radius($radius);
 ```
 
 > **Breakpoints**
 
-```css
+```bash
 @include breakpoints($media) {
+	...
+}
+
+// Exemple
+@include breakpoints($sm) {
 	...
 }
 ```
 
+_$media : {xs | sm | md | lg | xl}_
+
 > **Box shadow**
 
-```css
+```bash
 @include box-shadow($x, $y, $blur, $spread, $color);
 ```
 
 > **Opacity**
 
-```css
+```bash
 @include opacity($opacity, $alpha);
 ```
 
 > **Translate**
 
-```css
+```bash
 @include translate($y, $x);
 ```
 
 > **Transition**
 
-```css
+```bash
 @include transition($property, $timing, $delay);
 ```
 
@@ -613,99 +620,25 @@ _Values : {left | righ | none}_
 
 ## Fonts
 
-| Classes                            |
-| ---------------------------------- |
-| `.hub-open-sans-light`             |
-| `.hub-open-sans-light-italic`      |
-| `.hub-open-sans`                   |
-| `.hub-open-sans-italic`            |
-| `.hub-open-sans-semi-bold`         |
-| `.hub-open-sans-semi-bold-italic`  |
-| `.hub-open-sans-bold`              |
-| `.hub-open-sans-bold-italic`       |
-| `.hub-open-sans-extra-bold`        |
-| `.hub-open-sans-extra-bold-italic` |
-
-_Use in CSS :_
-
-```css
-/* Open Sans Light */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-
-/* Open Sans Light Italic */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
-  font-weight: 300;
-}
-
-/* Open Sans Regular */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-/* Open Sans Regular Italic */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-}
-
-/* Open Sans Semi-Bold */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
-
-/* Open Sans Semi-Bold Italic */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
-  font-weight: 600;
-}
-
-/* Open Sans Bold */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
-
-/* Open Sans Bold Italic */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
-  font-weight: 700;
-}
-
-/* Open Sans Extra-Bold */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-}
-
-/* Open Sans Extra-Bold Italic */
-... {
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
-  font-weight: 800;
-}
-```
+| Classes                            | Weight | Style  |
+| ---------------------------------- | ------ | ------ |
+| `.hub-open-sans-light`             | 300    | normal |
+| `.hub-open-sans-light-italic`      | 300    | italic |
+| `.hub-open-sans`                   | 400    | normal |
+| `.hub-open-sans-italic`            | 400    | italic |
+| `.hub-open-sans-semi-bold`         | 600    | normal |
+| `.hub-open-sans-semi-bold-italic`  | 600    | italic |
+| `.hub-open-sans-bold`              | 700    | normal |
+| `.hub-open-sans-bold-italic`       | 700    | italic |
+| `.hub-open-sans-extra-bold`        | 800    | normal |
+| `.hub-open-sans-extra-bold-italic` | 800    | italic |
 
 ---
 
 ## Font size
 
-| Breakpoints | Classes                |
-| ----------- | ---------------------- |
+| Breakpoints | Classes              |
+| ----------- | -------------------- |
 | Défaut      | `.hub-fs-{value}`    |
 | XS          | `.hub-fs-{value}-xs` |
 | SM          | `.hub-fs-{value}-sm` |
