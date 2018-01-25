@@ -181,7 +181,7 @@ _Values : {1 ~ 24}_
 
 > **Border radius**
 
-```css
+```bash
 @include border-radius($radius);
 
 // Exemple
@@ -190,20 +190,22 @@ _Values : {1 ~ 24}_
 
 > **Breakpoints**
 
-```css
+```bash
 @include breakpoints($media) {
 	...
 }
 
 // Exemple
-@include breakpoints($lg) {
+@include breakpoints($sm) {
 	...
 }
 ```
 
+_$media : {xs | sm | md | lg | xl}_
+
 > **Box shadow**
 
-```css
+```bash
 @include box-shadow($x, $y, $blur, $spread, $color);
 
 // Exemple
@@ -212,7 +214,7 @@ _Values : {1 ~ 24}_
 
 > **Opacity**
 
-```css
+```bash
 @include opacity($opacity, $alpha);
 
 // Exemple
@@ -221,7 +223,7 @@ _Values : {1 ~ 24}_
 
 > **Translate**
 
-```css
+```bash
 @include translate($y, $x);
 
 // Exemple
@@ -230,7 +232,7 @@ _Values : {1 ~ 24}_
 
 > **Transition**
 
-```css
+```bash
 @include transition($property, $timing, $delay);
 
 // Exemple
