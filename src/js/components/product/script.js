@@ -5,60 +5,56 @@ var $j,
 	closeModal,
 	openModal,
 	getPrices,
-	product= new Object();
+	product= new Object(),
 
-closeModal = function() {
-	$j("#popcart").fadeOut();
-};
-
-openModal = function(o) {
-	var pop = ".popcart__global__resumecart__";
-	$j(pop + "imgpdt img").attr("src",o.image);
-	$j(pop + "labelpdt").text(o.title);
-	$j(pop + "pricepdt__old").html(o.strokenprice);
-	$j(pop + "pricepdt__new").html(o.finalprice);
-	$j("#popcart").fadeIn();
-};
-
-getPrices = function(){
-	$j("article.item").each(function(){
-		var cat = $j(this).attr("data-catentry");
-		$j.getJSON("/webapp/wcs/stores/servlet/BLGetDynamicOffer?leadOfferCatentryId="+cat+"&storeId=10001&catalogId=10001&langId=-2",function(data){
-			reference = data.offer.price.referenceAmount,
-			amount = data.offer.price.amount;
-			if (data.catentryId === null || data.offer.published === false) {
-				$j(this).find('.item__bottom__price__amount').text('Produit indisponible');
-			} else {
-				var	op = accounting.formatMoney(reference, "", 2, " ", "&euro;").split("&euro;")[0] + "<sup>&euro;" + accounting.formatMoney(reference, "", 2, " ", "&euro;").split("&euro;")[1] + "</sup>";
-				var np = accounting.formatMoney(amount, "", 2, " ", "&euro;").split("&euro;")[0] + "<sup>&euro;" +accounting.formatMoney(amount, "", 2, " ", "&euro;").split("&euro;")[1] + "</sup>";
-				var remise = Math.round(((np-op)/op)*100)+"%";
-				if (reference <= amount) {op = "";}
-				$j(".item__bottom__price__striked").html(op);
-				$j(".item__bottom__price__amount").html(np);
-				$j("item__bottom__percent").html(remise);
-			}
+	closeModal = function() {
+		$j("#popcart").fadeOut();
+	},
+	openModal = function(o) {
+		var pop = ".popcart__global__resumecart__";
+		$j(pop + "imgpdt img").attr("src",o.image);
+		$j(pop + "labelpdt").text(o.title);
+		$j(pop + "pricepdt__old").html(o.strokenprice);
+		$j(pop + "pricepdt__new").html(o.finalprice);
+		$j("#popcart").fadeIn();
+	},
+	getPrices = function(){
+		$j("article.item").each(function(){
+			var cat = $j(this).attr("data-catentry");
+			$j.getJSON("/webapp/wcs/stores/servlet/BLGetDynamicOffer?leadOfferCatentryId="+cat+"&storeId=10001&catalogId=10001&langId=-2",function(data){
+				reference = data.offer.price.referenceAmount,
+				amount = data.offer.price.amount;
+				if (data.catentryId === null || data.offer.published === false) {
+					$j(this).find('.item__bottom__price__amount').text('Produit indisponible');
+				} else {
+					var	op = accounting.formatMoney(reference, "", 2, " ", "&euro;").split("&euro;")[0] + "<sup>&euro;" + accounting.formatMoney(reference, "", 2, " ", "&euro;").split("&euro;")[1] + "</sup>";
+					var np = accounting.formatMoney(amount, "", 2, " ", "&euro;").split("&euro;")[0] + "<sup>&euro;" +accounting.formatMoney(amount, "", 2, " ", "&euro;").split("&euro;")[1] + "</sup>";
+					var remise = Math.round(((np-op)/op)*100)+"%";
+					if (reference <= amount) {op = "";}
+					$j(".item__bottom__price__striked").html(op);
+					$j(".item__bottom__price__amount").html(np);
+					$j("item__bottom__percent").html(remise);
+				}
+			});
 		});
-	});
-};
-
-addToCart = function(value,current){
-	var e = "/webapp/wcs/stores/servlet/catalog/addToCart?catalogId=10001&storeId=10001&langId=-2&catgroupId=&catEntryId=" + value, t=$j(current), y=t.parents(".swiper-slide");
-	t.addClass("loading");
-	$j.post(e, function () {
-		$j(current).removeClass("loading");
-		product = {
-			"strokenprice" : y.find(".item__bottom__price__striked").html(),
-			"finalprice" : y.find(".item__bottom__price__amount").html(),
-			"image" : y.find(".item img.item__visuel").attr("src"),
-			"title" : y.find(".item .item__title").text()
-		};
-		openModal(product);
-	}).error(function(){
-		t.removeClass("loading");
-	});
-};
+	},
+	addToCart = function(value,current){
+		var e = "/webapp/wcs/stores/servlet/catalog/addToCart?catalogId=10001&storeId=10001&langId=-2&catgroupId=&catEntryId=" + value, t=$j(current), y=t.parents(".swiper-slide");
+		t.addClass("loading");
+		$j.post(e, function () {
+			$j(current).removeClass("loading");
+			product = {
+				"strokenprice" : y.find(".item__bottom__price__striked").html(),
+				"finalprice" : y.find(".item__bottom__price__amount").html(),
+				"image" : y.find(".item img.item__visuel").attr("src"),
+				"title" : y.find(".item .item__title").text()
+			};
+			openModal(product);
+		}).error(function(){
+			t.removeClass("loading");
+		});
+	};
 
 $j(function(){
 	$j(".item__bottom__addToBasket").live("click", function () {addToCart($j(this).parents(".item").attr("data-ref"),this)});
-	$j('[data-src]').each(function(){$j(this).attr("src",$j(this).attr("data-src"))});
 });
