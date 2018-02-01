@@ -7,8 +7,9 @@
  * OFFSET..........
 */
 
-// Row 
+// Row
 .hub-row {
+	//display: flex;
 	&::before,
 	&::after {
 		content: " ";
@@ -22,6 +23,8 @@
 // Col
 [class^=hub-col-] {
 	display: inline-block;
+	padding-right: $space;
+	padding-left: $space;
 }
 
 @for $i from 1 through $cols {
