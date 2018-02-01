@@ -134,8 +134,8 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-12">...</div><!--
-	--><div class="hub-col-12">...</div>
+	<div class="hub-col-6">...</div><!--
+	--><div class="hub-col-6">...</div>
 </div>
 ```
 
@@ -153,8 +153,8 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-8">...</div><!--
-	--><div class="hub-col-8 hub-col-offset-8">...</div>
+	<div class="hub-col-4">...</div><!--
+	--><div class="hub-col-4 hub-col-offset-4">...</div>
 </div>
 ```
 
@@ -162,9 +162,9 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-8 hub-align-top">...</div><!--
-	--><div class="hub-col-8 hub-align-middle">...</div><!--
-	--><div class="hub-col-8 hub-align-bottom">...</div>
+	<div class="hub-col-4 hub-align-top">...</div><!--
+	--><div class="hub-col-4 hub-align-middle">...</div><!--
+	--><div class="hub-col-4 hub-align-bottom">...</div>
 </div>
 ```
 
