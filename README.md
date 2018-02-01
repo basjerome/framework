@@ -130,7 +130,7 @@ La classe `.hub-container` permet de bloquer un élément à 1000px de large max
 | MD          | `.hub-col-{value}-md` |
 | LG          | `.hub-col-{value}-lg` |
 
-_Values : {1 ~ 24}_
+_Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
@@ -149,7 +149,7 @@ _Values : {1 ~ 24}_
 | MD          | `.hub-col-offset-{value}-md` |
 | LG          | `.hub-col-offset-{value}-lg` |
 
-_Values : {1 ~ 24}_
+_Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
