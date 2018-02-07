@@ -23,34 +23,34 @@
 
 @for $i from 1 through $cols {
 	.hub-col-#{$i} {
-		width: ($i * 100%) / $cols;
+		flex: ($i * 100%) / $cols;
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
 		.hub-col-#{$i}-xs {
-			width: ($i * 100%) / $cols  !important;
+			flex: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($sm) {
 		.hub-col-#{$i}-sm {
-			width: ($i * 100%) / $cols  !important;
+			flex: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($md) {
 		.hub-col-#{$i}-md {
-			width: ($i * 100%) / $cols  !important;
+			flex: ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($lg) {
 		.hub-col-#{$i}-lg {
-			width: ($i * 100%) / $cols  !important;
+			flex: ($i * 100%) / $cols  !important;
 		}
 	}
 }
@@ -91,7 +91,80 @@
 	}
 }
 
-// Align
+// Align items
+.hub-align-items-start {
+	align-items: flex-start !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-items: flex-start !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-items: flex-start !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-items: flex-start !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-items: flex-start !important;
+		}
+	}
+}
+
+.hub-align-items-center {
+	align-items: center !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-items: center !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-items: center !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-items: center !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-items: center !important;
+		}
+	}
+}
+
+.hub-align-items-end {
+	align-items: flex-end !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-items: flex-end !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-items: flex-end !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-items: flex-end !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-items: flex-end !important;
+		}
+	}
+}
+
+// Align self
 .hub-align-self-start {
 	align-self: flex-start !important;
 	@include breakpoints($xs) {
@@ -117,25 +190,25 @@
 }
 
 .hub-align-self-center {
-	align-self: flex-center !important;
+	align-self: center !important;
 	@include breakpoints($xs) {
 		&-xs {
-			align-self: flex-center !important;
+			align-self: center !important;
 		}
 	}
 	@include breakpoints($sm) {
 		&-sm {
-			align-self: flex-center !important;
+			align-self: center !important;
 		}
 	}
 	@include breakpoints($md) {
 		&-md {
-			align-self: flex-center !important;
+			align-self: center !important;
 		}
 	}
 	@include breakpoints($lg) {
 		&-lg {
-			align-self: flex-center !important;
+			align-self: center !important;
 		}
 	}
 }
