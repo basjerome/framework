@@ -113,8 +113,6 @@ La classe `.hub-container` permet de bloquer un élément à 1000px de large max
 
 ## Grid
 
-> **/!\ Pour supprimer les espaces indésirables entre les _"col"_, pensez à ajouter des balises de commentaires entre chaque _"col"_, comme dans les exemples ci-dessous !**
-
 | Breakpoints | Classes               |
 | ----------- | --------------------- |
 | Défaut      | `.hub-col-{value}`    |
@@ -127,8 +125,8 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-6">...</div><!--
-	--><div class="hub-col-6">...</div>
+	<div class="hub-col-6">...</div>
+	<div class="hub-col-6">...</div>
 </div>
 ```
 
@@ -146,8 +144,8 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-4">...</div><!--
-	--><div class="hub-col-4 hub-col-offset-4">...</div>
+	<div class="hub-col-4">...</div>
+	<div class="hub-col-4 hub-col-offset-4">...</div>
 </div>
 ```
 
@@ -155,9 +153,9 @@ _Values : {1 ~ 12}_
 
 ```html
 <div class="hub-row">
-	<div class="hub-col-4 hub-align-top">...</div><!--
-	--><div class="hub-col-4 hub-align-middle">...</div><!--
-	--><div class="hub-col-4 hub-align-bottom">...</div>
+	<div class="hub-col-4 hub-align-top">...</div>
+	<div class="hub-col-4 hub-align-middle">...</div>
+	<div class="hub-col-4 hub-align-bottom">...</div>
 </div>
 ```
 
