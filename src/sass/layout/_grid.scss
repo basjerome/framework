@@ -2,9 +2,10 @@
   $GRID
 \*---------------*/
 /**
- * ROW.............
- * COL.............
- * OFFSET..........
+* ROW.............
+* COL.............
+* OFFSET..........
+* ALIGN...........
 */
 
 // Row
@@ -86,6 +87,79 @@
 	@include breakpoints($lg) {
 		.hub-col-offset-#{$i}-lg {
 			margin-left: ($i * 100%) / $cols  !important;
+		}
+	}
+}
+
+// Align
+.hub-align-self-start {
+	align-self: flex-start !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-self: flex-start !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-self: flex-start !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-self: flex-start !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-self: flex-start !important;
+		}
+	}
+}
+
+.hub-align-self-center {
+	align-self: flex-center !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-self: flex-center !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-self: flex-center !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-self: flex-center !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-self: flex-center !important;
+		}
+	}
+}
+
+.hub-align-self-end {
+	align-self: flex-end !important;
+	@include breakpoints($xs) {
+		&-xs {
+			align-self: flex-end !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			align-self: flex-end !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			align-self: flex-end !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			align-self: flex-end !important;
 		}
 	}
 }
