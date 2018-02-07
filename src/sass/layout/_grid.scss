@@ -9,20 +9,13 @@
 
 // Row
 .hub-row {
-	//display: flex;
-	&::before,
-	&::after {
-		content: " ";
-		display: table;
-	}
-	&::after {
-		clear: both;
-	}
+	display: flex;
+	margin-right: -$space;
+	margin-left: -$space;
 }
 
 // Col
 [class^=hub-col-] {
-	display: inline-block;
 	padding-right: $space;
 	padding-left: $space;
 }
