@@ -7,6 +7,7 @@
 * OFFSET..........
 * ALIGN ITEMS.....
 * ALIGN SELF......
+* FLEX DIRECTION..
 * JUSTIFY CONTENT.
 */
 
@@ -58,7 +59,6 @@
 }
 
 // Offset
-
 @for $i from 1 through $cols {
 	.hub-col-offset-#{$i} {
 		margin-left: ($i * 100%) / $cols;
@@ -235,6 +235,31 @@
 	@include breakpoints($lg) {
 		&-lg {
 			align-self: flex-end !important;
+		}
+	}
+}
+
+// Flex direction
+.hub-flex-column {
+	flex-direction: column !important;
+	@include breakpoints($xs) {
+		&-xs {
+			flex-direction: column !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			flex-direction: column !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			flex-direction: column !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			flex-direction: column !important;
 		}
 	}
 }

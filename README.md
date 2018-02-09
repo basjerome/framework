@@ -151,8 +151,8 @@ _Values : {1 ~ 12}_
 
 > **Align items**
 
-| Breakpoints | Classes                     |
-| ----------- | --------------------------- |
+| Breakpoints | Classes                       |
+| ----------- | ----------------------------- |
 | Défaut      | `.hub-align-items-{value}`    |
 | XS          | `.hub-align-items-{value}-xs` |
 | SM          | `.hub-align-items-{value}-sm` |
@@ -163,8 +163,8 @@ _Values : {start | center | end}_
 
 > **Align self**
 
-| Breakpoints | Classes                     |
-| ----------- | --------------------------- |
+| Breakpoints | Classes                      |
+| ----------- | ---------------------------- |
 | Défaut      | `.hub-align-self-{value}`    |
 | XS          | `.hub-align-self-{value}-xs` |
 | SM          | `.hub-align-self-{value}-sm` |
@@ -173,10 +173,20 @@ _Values : {start | center | end}_
 
 _Values : {start | center | end}_
 
+> **Flex direction**
+
+| Breakpoints | Classes               |
+| ----------- | --------------------- |
+| Défaut      | `.hub-flex-column`    |
+| XS          | `.hub-flex-column-xs` |
+| SM          | `.hub-flex-column-sm` |
+| MD          | `.hub-flex-column-md` |
+| LG          | `.hub-flex-column-lg` |
+
 > **Justify content**
 
-| Breakpoints | Classes                     |
-| ----------- | --------------------------- |
+| Breakpoints | Classes                           |
+| ----------- | --------------------------------- |
 | Défaut      | `.hub-justify-content-{value}`    |
 | XS          | `.hub-justify-content-{value}-xs` |
 | SM          | `.hub-justify-content-{value}-sm` |
