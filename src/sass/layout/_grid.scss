@@ -5,7 +5,9 @@
 * ROW.............
 * COL.............
 * OFFSET..........
-* ALIGN...........
+* ALIGN ITEMS.....
+* ALIGN SELF......
+* JUSTIFY CONTENT.
 */
 
 // Row
@@ -23,34 +25,34 @@
 
 @for $i from 1 through $cols {
 	.hub-col-#{$i} {
-		flex: ($i * 100%) / $cols;
+		flex: 0 0 ($i * 100%) / $cols;
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
 		.hub-col-#{$i}-xs {
-			flex: ($i * 100%) / $cols  !important;
+			flex: 0 0 ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($sm) {
 		.hub-col-#{$i}-sm {
-			flex: ($i * 100%) / $cols  !important;
+			flex: 0 0 ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($md) {
 		.hub-col-#{$i}-md {
-			flex: ($i * 100%) / $cols  !important;
+			flex: 0 0 ($i * 100%) / $cols  !important;
 		}
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($lg) {
 		.hub-col-#{$i}-lg {
-			flex: ($i * 100%) / $cols  !important;
+			flex: 0 0 ($i * 100%) / $cols  !important;
 		}
 	}
 }
@@ -233,6 +235,127 @@
 	@include breakpoints($lg) {
 		&-lg {
 			align-self: flex-end !important;
+		}
+	}
+}
+
+// Justify content
+.hub-justify-content-start {
+	justify-content: flex-start !important;
+	@include breakpoints($xs) {
+		&-xs {
+			justify-content: flex-start !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			justify-content: flex-start !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			justify-content: flex-start !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			justify-content: flex-start !important;
+		}
+	}
+}
+
+.hub-justify-content-center {
+	justify-content: center !important;
+	@include breakpoints($xs) {
+		&-xs {
+			justify-content: center !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			justify-content: center !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			justify-content: center !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			justify-content: center !important;
+		}
+	}
+}
+
+.hub-justify-content-end {
+	justify-content: flex-end !important;
+	@include breakpoints($xs) {
+		&-xs {
+			justify-content: flex-end !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			justify-content: flex-end !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			justify-content: flex-end !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			justify-content: flex-end !important;
+		}
+	}
+}
+
+.hub-justify-content-around {
+	justify-content: space-around !important;
+	@include breakpoints($xs) {
+		&-xs {
+			justify-content: space-around !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			justify-content: space-around !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			justify-content: space-around !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			justify-content: space-around !important;
+		}
+	}
+}
+
+.hub-justify-content-between {
+	justify-content: space-between !important;
+	@include breakpoints($xs) {
+		&-xs {
+			justify-content: space-between !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			justify-content: space-between !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			justify-content: space-between !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			justify-content: space-between !important;
 		}
 	}
 }

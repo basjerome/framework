@@ -149,15 +149,41 @@ _Values : {1 ~ 12}_
 </div>
 ```
 
-> **Vertical align**
+> **Align items**
 
-```html
-<div class="hub-row">
-	<div class="hub-col-4 hub-align-top">...</div>
-	<div class="hub-col-4 hub-align-middle">...</div>
-	<div class="hub-col-4 hub-align-bottom">...</div>
-</div>
-```
+| Breakpoints | Classes                     |
+| ----------- | --------------------------- |
+| Défaut      | `.hub-align-items-{value}`    |
+| XS          | `.hub-align-items-{value}-xs` |
+| SM          | `.hub-align-items-{value}-sm` |
+| MD          | `.hub-align-items-{value}-md` |
+| LG          | `.hub-align-items-{value}-lg` |
+
+_Values : {start | center | end}_
+
+> **Align self**
+
+| Breakpoints | Classes                     |
+| ----------- | --------------------------- |
+| Défaut      | `.hub-align-self-{value}`    |
+| XS          | `.hub-align-self-{value}-xs` |
+| SM          | `.hub-align-self-{value}-sm` |
+| MD          | `.hub-align-self-{value}-md` |
+| LG          | `.hub-align-self-{value}-lg` |
+
+_Values : {start | center | end}_
+
+> **Justify content**
+
+| Breakpoints | Classes                     |
+| ----------- | --------------------------- |
+| Défaut      | `.hub-justify-content-{value}`    |
+| XS          | `.hub-justify-content-{value}-xs` |
+| SM          | `.hub-justify-content-{value}-sm` |
+| MD          | `.hub-justify-content-{value}-md` |
+| LG          | `.hub-justify-content-{value}-lg` |
+
+_Values : {start | center | end | around | between}_
 
 [Demo](https://basjerome.github.io/framework/grid.html)
 
