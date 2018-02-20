@@ -27,12 +27,14 @@
 @for $i from 1 through $cols {
 	.hub-col-#{$i} {
 		flex: 0 0 ($i * 100%) / $cols;
+		max-width: ($i * 100%) / $cols;
 	}
 }
 @for $i from 1 through $cols {
 	@include breakpoints($xs) {
 		.hub-col-#{$i}-xs {
 			flex: 0 0 ($i * 100%) / $cols  !important;
+			max-width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
@@ -40,6 +42,7 @@
 	@include breakpoints($sm) {
 		.hub-col-#{$i}-sm {
 			flex: 0 0 ($i * 100%) / $cols  !important;
+			max-width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
@@ -47,6 +50,7 @@
 	@include breakpoints($md) {
 		.hub-col-#{$i}-md {
 			flex: 0 0 ($i * 100%) / $cols  !important;
+			max-width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
@@ -54,6 +58,7 @@
 	@include breakpoints($lg) {
 		.hub-col-#{$i}-lg {
 			flex: 0 0 ($i * 100%) / $cols  !important;
+			max-width: ($i * 100%) / $cols  !important;
 		}
 	}
 }
