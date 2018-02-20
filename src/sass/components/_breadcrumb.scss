@@ -16,6 +16,20 @@
 		li {
 			display: inline-block;
 			font-size: 12px;
+			@include breakpoints($xs) {
+				&:nth-last-child(n+3) {
+					a,
+					a:focus,
+					a:hover {
+						&::before {
+							content: "...";
+						}
+					}
+					span {
+						display: none;
+					}
+				}
+			}
 			a,
 			a:focus,
 			a:hover {
@@ -31,7 +45,7 @@
 			 + li {
 				&::before {
 					content: "›";
-					font-size: 14px;
+					font-size: 20px;
 					margin-right: 5px;
 					margin-left: 5px;
 				}
