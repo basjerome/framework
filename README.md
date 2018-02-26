@@ -67,7 +67,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- CSS -->
-		<link rel="stylesheet" href="dist/css/framework.min.css">
+		<link rel="stylesheet" href="/content/static/bcom/framework/css/framework.min.css">
 		<title>...</title>
 		<script type="javascript/text" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
@@ -76,7 +76,7 @@
 		...
 
 		<!-- JavaScript -->
-		<script type="text/javascript" src="dist/js/framework.min.js"></script>
+		<script type="text/javascript" src="/content/static/bcom/framework/js/framework.min.js"></script>
 	</body>
 </html>
 ```
@@ -417,8 +417,6 @@ class="hub-h6"
 ## Carousel
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
-
 <!-- Slider main container -->
 <div class="swiper-container">
     <!-- Additional required wrapper -->
@@ -440,7 +438,6 @@ class="hub-h6"
     <div class="swiper-scrollbar"></div>
 </div>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
 <script type="text/javascript">
   var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
