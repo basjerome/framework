@@ -269,6 +269,30 @@
 	}
 }
 
+.hub-row-reverse {
+	flex-direction: row-reverse !important;
+	@include breakpoints($xs) {
+		&-xs {
+			flex-direction: row-reverse !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			flex-direction: row-reverse !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			flex-direction: row-reverse !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			flex-direction: row-reverse !important;
+		}
+	}
+}
+
 // Justify content
 .hub-justify-content-start {
 	justify-content: flex-start !important;

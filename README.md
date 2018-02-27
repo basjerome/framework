@@ -183,6 +183,14 @@ _Values : {start | center | end}_
 | MD          | `.hub-flex-column-md` |
 | LG          | `.hub-flex-column-lg` |
 
+| Breakpoints | Classes               |
+| ----------- | --------------------- |
+| Défaut      | `.hub-row-reverse`    |
+| XS          | `.hub-row-reverse-xs` |
+| SM          | `.hub-row-reverse-sm` |
+| MD          | `.hub-row-reverse-md` |
+| LG          | `.hub-row-reverse-lg` |
+
 > **Justify content**
 
 | Breakpoints | Classes                           |
