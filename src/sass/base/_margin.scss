@@ -1,7 +1,7 @@
 // Margin
 @for $i from 0 through 20 {
 	.hub-mg-#{$i * 5} {
-		margin: 1px * ($i * 5);
+		margin: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -36,7 +36,7 @@
 // Margin top
 @for $i from 0 through 20 {
 	.hub-mt-#{$i * 5} {
-		margin-top: 1px * ($i * 5);
+		margin-top: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -71,7 +71,7 @@
 // Margin right
 @for $i from 0 through 20 {
 	.hub-mr-#{$i * 5} {
-		margin-right: 1px * ($i * 5);
+		margin-right: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -106,7 +106,7 @@
 // Margin bottom
 @for $i from 0 through 20 {
 	.hub-mb-#{$i * 5} {
-		margin-bottom: 1px * ($i * 5);
+		margin-bottom: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -141,7 +141,7 @@
 // Margin left
 @for $i from 0 through 20 {
 	.hub-ml-#{$i * 5} {
-		margin-left: 1px * ($i * 5);
+		margin-left: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
