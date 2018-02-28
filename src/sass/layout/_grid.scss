@@ -14,6 +14,7 @@
 // Row
 .hub-row {
 	display: flex;
+	flex-wrap: wrap;
 	margin-right: -$space;
 	margin-left: -$space;
 }
