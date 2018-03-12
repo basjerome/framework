@@ -9,3 +9,24 @@ imgLazy = function () {
 		}
 	});
 };
+/**
+
+    $('img').load(function() {
+        // image has successfully loaded
+    });
+    You can also determine if the image has failed to load:
+
+    $('img').error(function() {
+        // image has failed to load
+    });
+    Web API
+    img.addEventListener('load', function() {
+        // image has successfully loaded
+    });
+    And if the image should fail to load?
+
+    img.addEventListener('error', function() {
+        // image has failed to load
+    });
+
+*/
