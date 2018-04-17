@@ -20,9 +20,9 @@ G.task('css', function () {
   .pipe(modSass({outputStyle: 'compressed',errLogToConsole: true}).on('error', modSass.logError))
   .pipe(modPostcss([require('autoprefixer')({browsers: ['last 15 versions','> 1% in FR']}),require('cssnano')]))
   .pipe(modRename({suffix: '.min'}))
+  .pipe(G.dest($dist + 'css/'))
   .pipe(modSourcemaps.write())
   .pipe(modPlumber.stop())
-  .pipe(G.dest($dist + 'css/'))
   .pipe(G.dest($docs + 'css/'));
 });
 
