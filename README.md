@@ -645,6 +645,17 @@ _Values : {left | righ | none}_
 
 | Classes                            | Weight | Style  |
 | ---------------------------------- | ------ | ------ |
+| `.hub-ars-light`                   | 300    | normal |
+| `.hub-ars-light-italic`            | 300    | italic |
+| `.hub-ars-regular`                 | 400    | normal |
+| `.hub-ars-italic`                  | 400    | italic |
+| `.hub-ars-medium`                  | 600    | normal |
+| `.hub-ars-medium-italic`           | 600    | italic |
+| `.hub-ars-bold`                    | 700    | normal |
+| `.hub-ars-bold-italic`             | 700    | italic |
+| `.hub-ars-black`                   | 800    | normal |
+| `.hub-ars-black-italic`            | 800    | italic |
+|                                    |        |        |
 | `.hub-open-sans-light`             | 300    | normal |
 | `.hub-open-sans-light-italic`      | 300    | italic |
 | `.hub-open-sans`                   | 400    | normal |
