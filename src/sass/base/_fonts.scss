@@ -451,29 +451,29 @@
 		font-size: 1px * $i;
 	}
 }
-@include breakpoints($xs) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($xs) {
 		.hub-fs-#{$i}-xs {
 			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($sm) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($sm) {
 		.hub-fs-#{$i}-sm {
 			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($md) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($md) {
 		.hub-fs-#{$i}-md {
 			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($lg) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($lg) {
 		.hub-fs-#{$i}-lg {
 			font-size: 1px * $i !important;
 		}
@@ -483,34 +483,34 @@
 // 35 ~ 100
 @for $i from 7 through 20 {
 	.hub-fs-#{$i * 5} {
-		font-size: 1px * ($i * 5);
+		font-size: 1px * $i;
 	}
 }
-@include breakpoints($xs) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($xs) {
 		.hub-fs-#{$i}-xs {
-			font-size: 1px * ($i * 5) !important;
+			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($sm) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($sm) {
 		.hub-fs-#{$i}-sm {
-			font-size: 1px * ($i * 5) !important;
+			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($md) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($md) {
 		.hub-fs-#{$i}-md {
-			font-size: 1px * ($i * 5) !important;
+			font-size: 1px * $i !important;
 		}
 	}
 }
-@include breakpoints($lg) {
-	@for $i from 8 through 30 {
+@for $i from 8 through 30 {
+	@include breakpoints($lg) {
 		.hub-fs-#{$i}-lg {
-			font-size: 1px * ($i * 5) !important;
+			font-size: 1px * $i !important;
 		}
 	}
 }
