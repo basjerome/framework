@@ -448,7 +448,7 @@
 // Font size
 @for $i from 8 through 30 {
 	.hub-fs-#{$i} {
-		font-size: 1px * $i;
+		font-size: 1px * $i !important;
 	}
 }
 @for $i from 8 through 30 {
@@ -483,7 +483,7 @@
 // 35 ~ 100
 @for $i from 7 through 20 {
 	.hub-fs-#{$i * 5} {
-		font-size: 1px * $i;
+		font-size: 1px * $i !important;
 	}
 }
 @for $i from 8 through 30 {

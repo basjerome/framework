@@ -1,7 +1,7 @@
 // Padding
 @for $i from 0 through 20 {
 	.hub-pd-#{$i * 5} {
-		padding: 1px * ($i * 5);
+		padding: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -36,7 +36,7 @@
 // Padding top
 @for $i from 0 through 20 {
 	.hub-pt-#{$i * 5} {
-		padding-top: 1px * ($i * 5);
+		padding-top: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -71,7 +71,7 @@
 // Padding right
 @for $i from 0 through 20 {
 	.hub-pr-#{$i * 5} {
-		padding-right: 1px * ($i * 5);
+		padding-right: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -106,7 +106,7 @@
 // Padding bottom
 @for $i from 0 through 20 {
 	.hub-pb-#{$i * 5} {
-		padding-bottom: 1px * ($i * 5);
+		padding-bottom: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
@@ -141,7 +141,7 @@
 // Padding left
 @for $i from 0 through 20 {
 	.hub-pl-#{$i * 5} {
-		padding-left: 1px * ($i * 5);
+		padding-left: 1px * ($i * 5) !important;
 	}
 }
 @for $i from 0 through 20 {
